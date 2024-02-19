@@ -1,1 +1,144 @@
-a
+{
+    "zone_1": {
+        "component": "CardInfoCustomer",
+        "props": {
+            "customer": {
+                "type": "params",
+                "objectName": "customer"
+            },
+            "height": {
+                "type": "static",
+                "content": "501px"
+            }
+        }
+    },
+    "zone_2": {
+        "component": "CardStatistics",
+        "props": {
+            "title": {
+                "type": "static",
+                "content": "Balance"
+            },
+            "stats": {
+                "type": "function",
+                "objectName": "customer",
+                "method": "getBalance"
+            },
+            "height": {
+                "type": "static",
+                "content": "151px"
+            }
+        }
+    },
+    "zone_3": {
+        "component": "CardStatistics",
+        "props": {
+            "title": {
+                "type": "static",
+                "content": "Total gagn\u00e9"
+            },
+            "stats": {
+                "type": "static",
+                "content": 13423
+            },
+            "height": {
+                "type": "static",
+                "content": "151px"
+            }
+        }
+    },
+    "zone_4": {
+        "component": "CardStatistics",
+        "props": {
+            "title": {
+                "type": "static",
+                "content": "Total investi"
+            },
+            "stats": {
+                "type": "static",
+                "content": 234500
+            },
+            "height": {
+                "type": "static",
+                "content": "151px"
+            }
+        }
+    },
+    "zone_5": {
+        "component": "CardStatistics",
+        "props": {
+            "title": {
+                "type": "static",
+                "content": "Tokens"
+            },
+            "stats": {
+                "type": "function",
+                "objectName": "customer",
+                "method": "getTokensNumber"
+            },
+            "info": {
+                "type": "static",
+                "content": true
+            },
+            "infoText": {
+                "type": "static",
+                "content": "Nombre de tokens poss\u00e9d\u00e9s par le client"
+            },
+            "noCurrency": {
+                "type": "static",
+                "content": true
+            },
+            "height": {
+                "type": "static",
+                "content": "151px"
+            }
+        }
+    },
+    "zone_6": {
+        "component": "CardEmpty",
+        "props": {
+            "height": {
+                "type": "static",
+                "content": "151px"
+            }
+        }
+    },
+    "zone_7": {
+        "component": "TabCustomerView",
+        "props": {
+            "tabs": {
+                "type": "static",
+                "content": [
+                    {
+                        "title": "Commandes",
+                        "icon": "ri-shopping-basket-2-line",
+                        "tab": "orders"
+                    },
+                    {
+                        "title": "Transactions",
+                        "icon": "ri-exchange-line",
+                        "tab": "transactions"
+                    }
+                ]
+            },
+            "customer": {
+                "type": "params",
+                "objectName": "customer"
+            },
+            "orders": {
+                "type": "params",
+                "objectName": "orders"
+            }
+        }
+    },
+    "zone_8": {
+        "component": "CustomerLogTable",
+        "props": {
+            "customer": {
+                "type": "function",
+                "objectName": "customer",
+                "method": "getId"
+            }
+        }
+    }
+}
