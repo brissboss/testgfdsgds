@@ -1,1 +1,154 @@
-a
+{
+    "zone_1": {
+        "component": "CardStatisticsBalance",
+        "props": {
+            "title": {
+                "type": "static",
+                "content": "Balance global"
+            },
+            "balance": {
+                "type": "static",
+                "content": 14560000
+            },
+            "maxTokens": {
+                "type": "static",
+                "content": 10000
+            },
+            "tokenPrice": {
+                "type": "static",
+                "content": 5000
+            }
+        }
+    },
+    "zone_2": {
+        "component": "CardStatistics",
+        "props": {
+            "title": {
+                "type": "static",
+                "content": "Nombre d'utilisateurs"
+            },
+            "stats": {
+                "type": "static",
+                "content": 8230
+            },
+            "noCurrency": {
+                "type": "static",
+                "content": true
+            }
+        }
+    },
+    "zone_3": {
+        "component": "CardStatistics",
+        "props": {
+            "title": {
+                "type": "static",
+                "content": "Nombre de KYC validés"
+            },
+            "stats": {
+                "type": "static",
+                "content": 4356
+            },
+            "noCurrency": {
+                "type": "static",
+                "content": true
+            }
+        }
+    },
+    "zone_4": {
+        "component": "CardStatistics",
+        "props": {
+            "title": {
+                "type": "static",
+                "content": "Investissement moyen"
+            },
+            "stats": {
+                "type": "static",
+                "content": 12100
+            }
+        }
+    },
+    "zone_5": {
+        "component": "CardStatistics",
+        "props": {
+            "title": {
+                "type": "static",
+                "content": "Investissement médian"
+            },
+            "stats": {
+                "type": "static",
+                "content": 45900
+            }
+        }
+    },
+    "zone_6": {
+        "component": "CardStatisticsCountry",
+        "props": {
+            "title": {
+                "type": "static",
+                "content": "Utilisateurs par pays"
+            },
+            "data": {
+                "type": "static",
+                "content": [
+                    {
+                        "country": "FR",
+                        "users": 1220
+                    },
+                    {
+                        "country": "DE",
+                        "users": 800
+                    },
+                    {
+                        "country": "US",
+                        "users": 100
+                    },
+                    {
+                        "country": "ES",
+                        "users": 400
+                    },
+                    {
+                        "country": "IT",
+                        "users": 300
+                    },
+                    {
+                        "country": "JP",
+                        "users": 200
+                    },
+                    {
+                        "country": "CN",
+                        "users": 100
+                    }
+                ]
+            }
+        }
+    },
+    "zone_7": {
+        "component": "CardStatisticsGrafana",
+        "props": {
+            "url": {
+                "type": "static",
+                "content": "https://demo-grafana.pecule.co/d-solo/partner-project/project?var-project=1212&panelId=21&theme=light"
+            }
+        }
+    },
+    "zone_8": {
+        "component": "CardStatisticsGrafana",
+        "props": {
+            "url": {
+                "type": "static",
+                "content": "https://demo-grafana.pecule.co/d-solo/partner-project/project?var-project=1212&panelId=22&theme=light"
+            },
+            "title": {
+                "type": "static",
+                "content": "Title of the card"
+            },
+            "height": {
+                "type": "static",
+                "content": {
+                    "height": "304px",
+                    "heightIframe": "80%"
+                }
+            }
+        }
+    }
+}
