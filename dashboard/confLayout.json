@@ -1,1 +1,42 @@
-a
+{
+    "devMode": false,
+    "components": {
+        "zone_1": {"size": {"cols": 12, "md": 6}},
+        "zone_2": {"size": {"cols": 12}},
+        "zone_3": {"size": {"cols": 12}},
+        "zone_4": {"size": {"cols": 12}},
+        "zone_5": {"size": {"cols": 21}},
+        "zone_6": {"size": {"cols": 6, "md": 3}},
+        "zone_7": {"size": {"cols": 9}},
+        "zone_8": {"size": {"cols": 12}}
+    },
+    "layout": [
+        {
+            "id": "block_1",
+            "size": {"cols": 12, "xl": 12},
+            "components": ["zone_1", "zone_6", "nested_1"]
+        },
+        {
+            "id": "block_2",
+            "size": {"cols": 12, "xl": 12},
+            "components": ["nested_2", "zone_7"]
+        },
+        {
+            "id": "block_3",
+            "size": {"cols": 12, "xl": 12},
+            "components": ["zone_8"]
+        }
+    ],
+    "nested": {
+        "nested_1": {
+            "id": "nested_1",
+            "size": {"cols": 12, "md": 3, "xl": 12},
+            "components": ["zone_2", "zone_3"]
+        },
+        "nested_2": {
+            "id": "nested_2",
+            "size": {"cols": 12, "md": 3, "xl": 12},
+            "components": ["zone_4", "zone_5"]
+        }
+    }
+}
