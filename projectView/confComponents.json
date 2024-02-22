@@ -136,6 +136,14 @@
             "noCurrency": {
                 "type": "static",
                 "content": true
+            },
+            "color": {
+                "type": "static",
+                "content": "#ff0"
+            },
+            "icon": {
+                "type": "static",
+                "content": "ri-user-3-line"
             }
         }
     },
