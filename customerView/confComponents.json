@@ -88,9 +88,13 @@
                 "type": "static",
                 "content": true
             },
-            "height": {
+            "color": {
                 "type": "static",
-                "content": "151px"
+                "content": "info"
+            },
+            "icon": {
+                "type": "static",
+                "content": "ri-coin-line"
             }
         }
     },
@@ -99,7 +103,7 @@
         "props": {
             "height": {
                 "type": "static",
-                "content": "151px"
+                "content": "98.5px"
             }
         }
     },
