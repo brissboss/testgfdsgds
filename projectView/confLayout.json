@@ -15,12 +15,12 @@
     "layout": [
         {
             "id": "block_1",
-            "size": {"cols": 12, "xl": 6},
+            "size": {"cols": 12, "xl": 5},
             "components": ["zone_1", "zone_2", "nested_1", "nested_2"]
         },
         {
             "id": "block_2",
-            "size": {"cols": 12, "xl": 6},
+            "size": {"cols": 12, "xl": 7},
             "components": ["zone_8", "zone_9"]
         }
     ],
