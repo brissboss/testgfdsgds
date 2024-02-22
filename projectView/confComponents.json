@@ -89,6 +89,14 @@
                 "type": "function",
                 "objectName": "project",
                 "method": "getTotalSupply"
+            },
+            "color": {
+                "type": "static",
+                "content": "info"
+            },
+            "icon": {
+                "type": "static",
+                "content": "ri-coin-line"
             }
         }
     },
