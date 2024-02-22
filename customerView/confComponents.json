@@ -58,9 +58,13 @@
                 "type": "static",
                 "content": 234500
             },
-            "height": {
+            "color": {
                 "type": "static",
-                "content": "151px"
+                "content": "error"
+            },
+            "icon": {
+                "type": "static",
+                "content": "ri-shopping-basket-2-line"
             }
         }
     },
