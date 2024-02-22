@@ -34,6 +34,14 @@
             "noCurrency": {
                 "type": "static",
                 "content": true
+            },
+            "color": {
+                "type": "static",
+                "content": "warning"
+            },
+            "icon": {
+                "type": "static",
+                "content": "ri-group-line"
             }
         }
     },
@@ -51,6 +59,14 @@
             "noCurrency": {
                 "type": "static",
                 "content": true
+            },
+            "color": {
+                "type": "static",
+                "content": "success"
+            },
+            "icon": {
+                "type": "static",
+                "content": "ri-pass-valid-line"
             }
         }
     },
@@ -64,6 +80,14 @@
             "stats": {
                 "type": "static",
                 "content": 12100
+            },
+            "color": {
+                "type": "static",
+                "content": "error"
+            },
+            "icon": {
+                "type": "static",
+                "content": "ri-bank-line"
             }
         }
     },
@@ -77,6 +101,14 @@
             "stats": {
                 "type": "static",
                 "content": 45900
+            },
+            "color": {
+                "type": "static",
+                "content": "info"
+            },
+            "icon": {
+                "type": "static",
+                "content": "ri-bank-line"
             }
         }
     },
