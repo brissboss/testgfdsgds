@@ -133,22 +133,6 @@
                     {
                         "country": "US",
                         "users": 100
-                    },
-                    {
-                        "country": "ES",
-                        "users": 400
-                    },
-                    {
-                        "country": "IT",
-                        "users": 300
-                    },
-                    {
-                        "country": "JP",
-                        "users": 200
-                    },
-                    {
-                        "country": "CN",
-                        "users": 100
                     }
                 ]
             }
