@@ -139,7 +139,7 @@
             },
             "color": {
                 "type": "static",
-                "content": "#f1b44c"
+                "content": "warning"
             },
             "icon": {
                 "type": "static",
