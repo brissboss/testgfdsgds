@@ -62,7 +62,7 @@
             },
             "color": {
                 "type": "static",
-                "content": "success"
+                "content": "info"
             },
             "icon": {
                 "type": "static",
@@ -87,7 +87,7 @@
             },
             "icon": {
                 "type": "static",
-                "content": "ri-bank-line"
+                "content": "ri-discount-percent-line"
             }
         }
     },
@@ -104,11 +104,11 @@
             },
             "color": {
                 "type": "static",
-                "content": "info"
+                "content": "success"
             },
             "icon": {
                 "type": "static",
-                "content": "ri-bank-line"
+                "content": "ri-exchange-line"
             }
         }
     },
