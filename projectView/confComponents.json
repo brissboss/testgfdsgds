@@ -62,7 +62,14 @@
             "stats": {
                 "type": "static",
                 "content": 10000
-            }
+            },
+            "color": {
+                "type": "static",
+                "content": "success"
+            },
+            "icon": {
+                "type": "static",
+                "content": "ri-exchange-line"
         }
     },
     "zone_5": {
@@ -94,6 +101,14 @@
             "stats": {
                 "type": "static",
                 "content": 32400
+            },
+            "color": {
+                "type": "static",
+                "content": "error"
+            },
+            "icon": {
+                "type": "static",
+                "content": "ri-discount-percent-line"
             }
         }
     },
