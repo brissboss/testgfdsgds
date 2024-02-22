@@ -24,9 +24,13 @@
                 "objectName": "customer",
                 "method": "getBalance"
             },
-            "height": {
+            "color": {
                 "type": "static",
-                "content": "151px"
+                "content": "success"
+            },
+            "icon": {
+                "type": "static",
+                "content": "ri-wallet-3-line"
             }
         }
     },
@@ -43,11 +47,11 @@
             },
             "color": {
                 "type": "static",
-                "content": "success"
+                "content": "warning"
             },
             "icon": {
                 "type": "static",
-                "content": "ri-wallet-3-line"
+                "content": "ri-hand-coin-line"
             }
         }
     },
