@@ -41,9 +41,13 @@
                 "type": "static",
                 "content": 13423
             },
-            "height": {
+            "color": {
                 "type": "static",
-                "content": "151px"
+                "content": "success"
+            },
+            "icon": {
+                "type": "static",
+                "content": "ri-wallet-3-line"
             }
         }
     },
