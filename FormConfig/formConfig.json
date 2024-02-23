@@ -1,0 +1,175 @@
+{
+    "Blockchain": {
+        "icon": "ri-btc-line",
+        "input": {
+            "divider_1": {
+                "type": "divider",
+                "label": "Informations générales"
+            },
+            "input_1": {
+                "type": "text",
+                "label": "Nom du projet",
+                "name": "name",
+                "required": true,
+                "editable": true
+            },
+            "input_2": {
+                "type": "number",
+                "label": "Prix d'un token",
+                "name": "price",
+                "required": true,
+                "info": "Le prix d'un token est le prix d'une part du projet que vous souhaitez vendre"
+            },
+            "input_3": {
+                "type": "number",
+                "label": "Nombre de tokens",
+                "name": "total_supply",
+                "required": true,
+                "info": "Le nombre de tokens est le nombre de parts du projet que vous souhaitez vendre"
+            },
+            "input_4": {
+                "type": "text",
+                "label": "Symbole du token",
+                "name": "symbol",
+                "required": true,
+                "info": "Le symbole du token est un identifiant unique qui permet de différencier les tokens entre eux. Il est généralement composé de 3 à 5 caractères."
+            },
+            "input_5": {
+                "type": "text",
+                "label": "Nombre maximal de tokens par client",
+                "name": "max_authorized_quantity",
+                "required": false,
+                "info": "Le nombre maximal de tokens par client est le nombre maximal de tokens qu'un client peut acheter. Si vous ne souhaitez pas limiter le nombre de tokens par client, laissez ce champ vide."
+            }
+        }
+    },
+    "Aperçu": {
+        "icon": "ri-image-2-line",
+        "input": {
+            "divider_1": {
+                "type": "divider",
+                "label": "Ajouter vos images et descriptifs"
+            },
+            "input_1": {
+                "type": "iframe",
+                "label": "https://vuetifyjs.com/en/"
+            }
+        }
+    },
+    "Informations": {
+        "icon": "ri-information-line",
+        "input": {
+            "divider_1": {
+                "type": "divider",
+                "label": "Informations Financières"
+            },
+            "input_1": {
+                "type": "number",
+                "label": "Taux d'intérêt en %",
+                "name": "interestRate",
+                "required": true,
+                "editable": true
+            },
+            "input_2": {
+                "type": "number",
+                "label": "Taux d'actualisation en %",
+                "name": "discountRate",
+                "required": true,
+                "editable": true
+            },
+            "input_3": {
+                "type": "number",
+                "label": "Périodicité des coupons (par ans)",
+                "name": "couponFrequency",
+                "required": true,
+                "editable": true
+            },
+            "input_4": {
+                "type": "number",
+                "label": "Maturité en années",
+                "name": "maturity",
+                "required": true,
+                "editable": true
+            },
+            "divider_2": {
+                "type": "divider",
+                "label": "Propriétés du bien",
+                "name": "property"
+            },
+            "input_5": {
+                "type": "number",
+                "label": "Loyer",
+                "name": "rent",
+                "required": true,
+                "editable": true
+            },
+            "input_6": {
+                "type": "number",
+                "label": "Zip code",
+                "name": "zipCode",
+                "required": true,
+                "editable": true
+            },
+            "input_7": {
+                "type": "string",
+                "label": "Emplacement",
+                "name": "location",
+                "required": true,
+                "editable": true
+            },
+            "input_8": {
+                "type": "number",
+                "label": "Surface en m²",
+                "name": "surface",
+                "required": true,
+                "editable": true
+            },
+            "input_9": {
+                "type": "string",
+                "label": "URL Google Maps",
+                "name": "googleMaps",
+                "required": true,
+                "editable": true
+            },
+            "input_10": {
+                "type": "textArea",
+                "label": "Équipement",
+                "name": "equipment",
+                "required": true,
+                "info": "Listez les équipements du bien",
+                "editable": true
+            },
+            "divider_3": {
+                "type": "divider",
+                "label": "Historique des actifs"
+            },
+            "input_11": {
+                "type": "date",
+                "label": "Date estimée d'ouverture des ventes",
+                "name": "openingDate",
+                "required": true,
+                "editable": true
+            },
+            "input_12": {
+                "type": "date",
+                "label": "Date estimée de fin des ventes",
+                "name": "closingDate",
+                "required": true,
+                "editable": true
+            },
+            "input_13": {
+                "type": "date",
+                "label": "Date estimé de distribution des tokens",
+                "name": "distributionDate",
+                "required": true,
+                "editable": true
+            },
+            "input_14": {
+                "type": "date",
+                "label": "Date estimé de première distribution de revenus",
+                "name": "firstRevenueDate",
+                "required": true
+            }
+        }
+    }
+}
