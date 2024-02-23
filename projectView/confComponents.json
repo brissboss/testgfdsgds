@@ -12,6 +12,11 @@
                 "objectName": "project",
                 "method": "getPrice"
             },
+            "symbol": {
+                "type": "function",
+                "objectName": "project",
+                "method": "getSymbol"
+            },
             "id": {
                 "type": "function",
                 "objectName": "project",
