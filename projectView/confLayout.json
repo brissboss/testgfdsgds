@@ -10,8 +10,7 @@
         "zone_7": { "size": {"cols": 12, "md": 6}},
         "zone_8": { "size": {"cols": 12, "xl": 12}},
         "zone_9": { "size": {"cols": 12, "xl": 12}},
-        "zone_10": { "size": {"cols": 12, "md": 6}},
-        "zone_11": { "size": {"cols": 12, "xl": 12}}
+        "zone_10": { "size": {"cols": 12, "md": 6}}
     },
     "layout": [
         {
@@ -22,7 +21,7 @@
         {
             "id": "block_2",
             "size": {"cols": 12, "xl": 7},
-            "components": ["zone_11", "zone_8", "zone_9"]
+            "components": ["zone_8", "zone_9"]
         }
     ],
     "nested": {
