@@ -11,35 +11,54 @@
                 "label": "Nom du projet",
                 "name": "name",
                 "required": true,
-                "editable": true
+                "editable": true,
+                "rules": [
+                    "required"
+                ]
             },
             "input_2": {
                 "type": "number",
                 "label": "Prix d'un token",
                 "name": "price",
                 "required": true,
-                "info": "Le prix d'un token est le prix d'une part du projet que vous souhaitez vendre"
+                "info": "Le prix d'un token est le prix d'une part du projet que vous souhaitez vendre",
+                "rules": [
+                    "required",
+                    "upper:0",
+                    "priceFormatter"
+                ]
             },
             "input_3": {
                 "type": "number",
                 "label": "Nombre de tokens",
                 "name": "total_supply",
                 "required": true,
-                "info": "Le nombre de tokens est le nombre de parts du projet que vous souhaitez vendre"
+                "info": "Le nombre de tokens est le nombre de parts du projet que vous souhaitez vendre",
+                "rules" : [
+                    "required",
+                    "upper:0",
+                    "integer"
+                ]
             },
             "input_4": {
                 "type": "text",
                 "label": "Symbole du token",
                 "name": "symbol",
                 "required": true,
-                "info": "Le symbole du token est un identifiant unique qui permet de différencier les tokens entre eux. Il est généralement composé de 3 à 5 caractères."
+                "info": "Le symbole du token est un identifiant unique qui permet de différencier les tokens entre eux. Il est généralement composé de 3 à 5 caractères.",
+                "rules": [
+                    "required"
+                ]
             },
             "input_5": {
                 "type": "text",
                 "label": "Nombre maximal de tokens par client",
                 "name": "max_authorized_quantity",
                 "required": false,
-                "info": "Le nombre maximal de tokens par client est le nombre maximal de tokens qu'un client peut acheter. Si vous ne souhaitez pas limiter le nombre de tokens par client, laissez ce champ vide."
+                "info": "Le nombre maximal de tokens par client est le nombre maximal de tokens qu'un client peut acheter. Si vous ne souhaitez pas limiter le nombre de tokens par client, laissez ce champ vide.",
+                "rules": [
+                    "integer"
+                ]
             }
         }
     },
