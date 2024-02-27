@@ -1,0 +1,23 @@
+{
+    "zone_1": {
+        "component": "CardStatistics",
+        "props": {
+            "title": {
+                "type": "static",
+                "content": "Mon solde"
+            },
+            "stats": {
+                "type": "static",
+                "content": 45632054
+            },
+            "color": {
+                "type": "static",
+                "content": "success"
+            },
+            "icon": {
+                "type": "static",
+                "content": "ri-wallet-3-line"
+            }
+        }
+    }
+}
