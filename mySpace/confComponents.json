@@ -11,6 +11,14 @@
                 "objectName": "partner",
                 "method": "getBalance"
             },
+            "info": {
+                "type": "static",
+                "content": true
+            },
+            "infoText": {
+                "type": "static",
+                "content": "Correspond au solde de votre compte partenaire."
+            },
             "color": {
                 "type": "static",
                 "content": "success"
