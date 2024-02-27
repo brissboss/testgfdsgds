@@ -7,8 +7,9 @@
                 "content": "Mon solde"
             },
             "stats": {
-                "type": "static",
-                "content": 45632054
+                "type": "function",
+                "objectName": "partner",
+                "method": "getBalance"
             },
             "color": {
                 "type": "static",
