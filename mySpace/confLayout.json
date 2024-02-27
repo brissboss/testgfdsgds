@@ -7,7 +7,7 @@
     "layout": [
         {
             "id": "block_1",
-            "size": {"cols": 12, "md": 6, "xl": 6},
+            "size": {"cols": 12, "md": 5, "xl": 6},
             "components": ["zone_1", "zone_2"]
         }
     ]
