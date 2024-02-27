@@ -1,7 +1,12 @@
 {
     "zone_1": {
         "component": "CardInfoPartner",
-        "props": {}
+        "props": {
+            "partner": {
+                "type": "params",
+                "objectName": "partner"
+            }
+        }
     },
     "zone_2": {
         "component": "CardStatistics",
