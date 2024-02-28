@@ -9,7 +9,7 @@
         }
     },
     "zone_2": {
-        "component": "CardStatistics",
+        "component": "CardStatisticsWithActions",
         "props": {
             "title": {
                 "type": "static",
