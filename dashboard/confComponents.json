@@ -37,8 +37,9 @@
                 "content": "Nombre de projets"
             },
             "stats": {
-                "type": "static",
-                "content": 24
+                "type": "function",
+                "objectName": "projects",
+                "method": "getTotalProjects"
             },
             "noCurrency": {
                 "type": "static",
