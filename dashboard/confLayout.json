@@ -3,13 +3,19 @@
     "components": {
         "zone_1": {"size": {"cols": 12, "md": 6}},
         "zone_2": {"size": {"cols": 12, "md": 6}},
-        "zone_3": {"size": {"cols": 12, "md": 6}}
+        "zone_3": {"size": {"cols": 12, "md": 6}},
+        "zone_4": {"size": {"cols": 12, "md": 6}}
     },
     "layout": [
         {
             "id": "block_1",
             "size": {"cols": 12, "md": 5},
             "components": ["zone_1", "zone_2", "zone_3"]
+        },
+        {
+            "id": "block_2",
+            "size": {"cols": 12, "md": 7},
+            "components": ["zone_4"]
         }
     ]
 
