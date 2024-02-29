@@ -10,6 +10,14 @@
                 "type": "static",
                 "content": "159594684"
             },
+            "info": {
+                "type": "static",
+                "content": true
+            },
+            "infoText": {
+                "type": "static",
+                "content": "Montant total collecté toutes collectes confondues"
+            },
             "color": {
                 "type": "static",
                 "content": "success"
