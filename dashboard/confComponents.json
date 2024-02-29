@@ -21,11 +21,11 @@
             },
             "color": {
                 "type": "static",
-                "content": "success"
+                "content": "error"
             },
             "icon": {
                 "type": "static",
-                "content": "ri-bank-line"
+                "content": "ri-hand-coin-line"
             }
         }
     },
@@ -52,6 +52,28 @@
             "icon": {
                 "type": "static",
                 "content": "ri-stack-line"
+            }
+        }
+    },
+    "zone_3": {
+        "component": "CardStatistics",
+        "props": {
+            "title": {
+                "type": "static",
+                "content": "Solde actuel"
+            },
+            "stats": {
+                "type": "function",
+                "objectName": "partner",
+                "method": "getBalance"
+            },
+            "color": {
+                "type": "static",
+                "content": "success"
+            },
+            "icon": {
+                "type": "static",
+                "content": "ri-bank-line"
             }
         }
     }
