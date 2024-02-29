@@ -4,7 +4,7 @@
         "zone_1": {"size": {"cols": 12, "md": 6}},
         "zone_2": {"size": {"cols": 12, "md": 6}},
         "zone_3": {"size": {"cols": 12, "md": 6}},
-        "zone_4": {"size": {"cols": 12, "md": 6}}
+        "zone_4": {"size": {"cols": 12, "md": 9}}
     },
     "layout": [
         {
