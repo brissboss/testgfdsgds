@@ -1,8 +1,8 @@
 {
     "devMode": false,
     "components": {
-        "zone_1": {"size": {"cols": 12}},
-        "zone_2": {"size": {"cols": 12}}
+        "zone_1": {"size": {"cols": 12, "md": 9}},
+        "zone_2": {"size": {"cols": 12, "md": 3}}
     },
     "layout": [
         {

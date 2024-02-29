@@ -40,6 +40,10 @@
                 "type": "static",
                 "content": 24
             },
+            "noCurrency": {
+                "type": "static",
+                "content": true
+            },
             "color": {
                 "type": "static",
                 "content": "primary"
