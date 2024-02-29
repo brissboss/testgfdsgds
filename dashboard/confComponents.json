@@ -9,7 +9,7 @@
             "stats": {
                 "type": "function",
                 "objectName": "projects",
-                "functionName": "getTotalCollected"
+                "method": "getTotalCollected"
             },
             "info": {
                 "type": "static",
