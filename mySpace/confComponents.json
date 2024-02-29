@@ -20,6 +20,21 @@
                 "objectName": "partner",
                 "method": "getBalance"
             },
+            "actions": {
+                "type": "static",
+                "content": [
+                    {
+                        "label": "Dépot",
+                        "icon": "ri-arrow-down-circle-line",
+                        "component": ""
+                    },
+                    {
+                        "label": "Retrait",
+                        "icon": "ri-arrow-up-circle-line",
+                        "component": "PopUpPayout"
+                    }
+                ]
+            },
             "info": {
                 "type": "static",
                 "content": true
