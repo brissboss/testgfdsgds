@@ -28,5 +28,26 @@
                 "content": "ri-bank-line"
             }
         }
+    },
+    "zone_2": {
+        "component": "CardStatistics",
+        "props": {
+            "title": {
+                "type": "static",
+                "content": "Nombre de projets"
+            },
+            "stats": {
+                "type": "static",
+                "content": 24
+            },
+            "color": {
+                "type": "static",
+                "content": "primary"
+            },
+            "icon": {
+                "type": "static",
+                "content": "ri-stack-line"
+            }
+        }
     }
 }
