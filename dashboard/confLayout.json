@@ -1,13 +1,13 @@
 {
     "devMode": false,
     "components": {
-        "zone_1": {"size": {"cols": 12, "md": 7}},
-        "zone_2": {"size": {"cols": 12, "md": 5}}
+        "zone_1": {"size": {"cols": 12}},
+        "zone_2": {"size": {"cols": 12, "md": 6}}
     },
     "layout": [
         {
             "id": "block_1",
-            "size": {"cols": 12, "md": 4},
+            "size": {"cols": 12, "md": 3},
             "components": ["zone_1", "zone_2"]
         }
     ]
