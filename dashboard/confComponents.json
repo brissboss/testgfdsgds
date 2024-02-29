@@ -7,8 +7,9 @@
                 "content": "Total collecté"
             },
             "stats": {
-                "type": "static",
-                "content": "159594684"
+                "type": "function",
+                "objectName": "projects",
+                "functionName": "getTotalCollected"
             },
             "info": {
                 "type": "static",
