@@ -24,13 +24,9 @@
                 "type": "static",
                 "content": [
                     {
-                        "label": "Dépot",
-                        "icon": "ri-arrow-down-circle-line",
                         "component": "PopUpPayin"
                     },
                     {
-                        "label": "Retrait",
-                        "icon": "ri-arrow-up-circle-line",
                         "component": "PopUpPayout"
                     }
                 ]
