@@ -1,22 +1,22 @@
 {
     "zone_1": {
-        "component": "CardStatisticsBalance",
+        "component": "CardStatistics",
         "props": {
             "title": {
                 "type": "static",
-                "content": "Balance global"
+                "content": "Total collecté"
             },
-            "balance": {
+            "stats": {
                 "type": "static",
-                "content": 14560000
+                "content": "159594684"
             },
-            "maxTokens": {
+            "color": {
                 "type": "static",
-                "content": 10000
+                "content": "success"
             },
-            "tokenPrice": {
+            "icon": {
                 "type": "static",
-                "content": 5000
+                "content": "ri-bank-line"
             }
         }
     }
