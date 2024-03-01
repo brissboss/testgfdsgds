@@ -189,6 +189,10 @@
                 "type": "static",
                 "content": 426
             },
+            "noCurrency": {
+                "type": "static",
+                "content": true
+            },
             "color": {
                 "type": "static",
                 "content": "warning"
@@ -209,6 +213,10 @@
             "stats": {
                 "type": "static",
                 "content": 2549
+            },
+            "noCurrency": {
+                "type": "static",
+                "content": true
             },
             "color": {
                 "type": "static",
