@@ -16,7 +16,7 @@
         },
         {
             "id": "block_2",
-            "size": {"cols": 12, "md": 7},
+            "size": {"cols": 12, "md": 6},
             "components": ["nested_2"]
         }
     ],
