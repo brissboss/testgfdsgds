@@ -94,7 +94,7 @@
         "props": {
             "title": {
                 "type": "static",
-                "content": "Moyenne des investissements"
+                "content": "[FAKE DATA]Moyenne des investissements"
             },
             "stats": {
                 "type": "static",
@@ -106,7 +106,7 @@
             },
             "infoText": {
                 "type": "static",
-                "content": "[FAKE DATA]Moyenne des investissements de tous les utilisateurs sur la plateforme"
+                "content": "Moyenne des investissements de tous les utilisateurs sur la plateforme"
             },
             "color": {
                 "type": "static",
