@@ -177,5 +177,47 @@
                 "content": "ri-btc-line"
             }
         }
+    },
+    "zone_9": {
+        "component": "CardStatistics",
+        "props": {
+            "title": {
+                "type": "static",
+                "content": "[FAKE DATA]KYC validés"
+            },
+            "stats": {
+                "type": "static",
+                "content": 426
+            },
+            "color": {
+                "type": "static",
+                "content": "warning"
+            },
+            "icon": {
+                "type": "static",
+                "content": "ri-id-card-line"
+            }
+        }
+    },
+    "zone_10": {
+        "component": "CardStatistics",
+        "props": {
+            "title": {
+                "type": "static",
+                "content": "[FAKE DATA]Nombre d'utilisateurs"
+            },
+            "stats": {
+                "type": "static",
+                "content": 2549
+            },
+            "color": {
+                "type": "static",
+                "content": "warning"
+            },
+            "icon": {
+                "type": "static",
+                "content": "ri-group-line"
+            }
+        }
     }
 }
