@@ -145,10 +145,10 @@
                 "type": "static",
                 "content": "ri-exchange-line"
             }
-        },
-        "zone_7": {
-            "component": "CardRenewKYC",
-            "props": {}
         }
+    },
+    "zone_7": {
+        "component": "CardRenewKYC",
+        "props": {}
     }
 }
