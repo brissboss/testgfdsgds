@@ -4,7 +4,7 @@
         "zone_1": {"size": {"cols": 12, "md": 6}},
         "zone_2": {"size": {"cols": 12, "md": 6}},
         "zone_3": {"size": {"cols": 12, "md": 6}},
-        "zone_4": {"size": {"cols": 12, "md": 7}},
+        "zone_4": {"size": {"cols": 12, "md": 6}},
         "zone_5": {"size": {"cols": 12}},
         "zone_6": {"size": {"cols": 12}}
     },
@@ -23,7 +23,7 @@
     "nested": {
         "nested_1": {
             "id": "nested_1",
-            "size": {"cols": 12, "md": 5},
+            "size": {"cols": 12, "md": 6},
             "components": ["zone_5", "zone_6"]
         }
     }

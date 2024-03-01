@@ -110,7 +110,7 @@
             },
             "color": {
                 "type": "static",
-                "content": "warning"
+                "content": "error"
             },
             "icon": {
                 "type": "static",
