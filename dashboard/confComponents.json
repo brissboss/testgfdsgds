@@ -195,7 +195,7 @@
             },
             "icon": {
                 "type": "static",
-                "content": "ri-id-card-line"
+                "content": "ri-pass-valid-line"
             }
         }
     },
