@@ -67,5 +67,42 @@
                 "objectName": "partner"
             }
         }
+    },
+    "zone_4": {
+        "component": "CardStatisticsWithActions",
+        "props": {
+            "title": {
+                "type": "static",
+                "content": "Mon solde blockchain"
+            },
+            "stats": {
+                "type": "static",
+                "content": 12345678
+            },
+            "actions": {
+                "type": "static",
+                "content": [
+                    {
+                        "component": "PopUpPayin"
+                    }
+                ]
+            },
+            "info": {
+                "type": "static",
+                "content": true
+            },
+            "infoText": {
+                "type": "static",
+                "content": "Correspond au solde de votre compte blockchain"
+            },
+            "color": {
+                "type": "static",
+                "content": "success"
+            },
+            "icon": {
+                "type": "static",
+                "content": "ri-btc-line"
+            }
+        }
     }
 }
