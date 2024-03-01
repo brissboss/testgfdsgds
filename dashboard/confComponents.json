@@ -156,5 +156,26 @@
                 "method": "getRenewKYC"
             }
         }
+    },
+    "zone_8": {
+        "component": "CardStatistics",
+        "props": {
+            "title": {
+                "type": "static",
+                "content": "Solde Blockchain"
+            },
+            "stats": {
+                "type": "static",
+                "content": 123456
+            },
+            "color": {
+                "type": "static",
+                "content": "primary"
+            },
+            "icon": {
+                "type": "static",
+                "content": "ri-bitcoin-line"
+            }
+        }
     }
 }
