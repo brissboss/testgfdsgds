@@ -24,12 +24,12 @@
         "nested_1": {
             "id": "nested_1",
             "size": {"cols": 12},
-            "components": ["zone_1", "zone_2"]
+            "components": ["zone_1", "zone_3"]
         },
         "nested_2": {
             "id": "nested_2",
             "size": {"cols": 12},
-            "components": ["zone_5", "zone_6", "zone_3"]
+            "components": ["zone_5", "zone_6", "zone_2"]
         }
     }
 
