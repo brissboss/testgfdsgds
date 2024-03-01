@@ -6,13 +6,14 @@
         "zone_3": {"size": {"cols": 12, "md": 6}},
         "zone_4": {"size": {"cols": 12}},
         "zone_5": {"size": {"cols": 12, "md": 6}},
-        "zone_6": {"size": {"cols": 12, "md": 6}}
+        "zone_6": {"size": {"cols": 12, "md": 6}},
+        "zone_7": {"size": {"cols": 12}}
     },
     "layout": [
         {
             "id": "block_1",
             "size": {"cols": 12, "md": 6},
-            "components": ["nested_1", "zone_4"]
+            "components": ["nested_1", "zone_4", "zone_7"]
         },
         {
             "id": "block_2",
