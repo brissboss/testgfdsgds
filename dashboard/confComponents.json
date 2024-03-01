@@ -106,7 +106,7 @@
             },
             "infoText": {
                 "type": "static",
-                "content": "Moyenne des investissements de tous les utilisateurs sur la plateforme"
+                "content": "[FAKE DATA]Moyenne des investissements de tous les utilisateurs sur la plateforme"
             },
             "color": {
                 "type": "static",
@@ -123,7 +123,7 @@
         "props": {
             "title": {
                 "type": "static",
-                "content": "Médiane des investissements"
+                "content": "[FAKE DATA]Médiane des investissements"
             },
             "stats": {
                 "type": "static",
