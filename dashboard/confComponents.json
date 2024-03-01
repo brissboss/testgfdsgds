@@ -162,7 +162,7 @@
         "props": {
             "title": {
                 "type": "static",
-                "content": "Solde Blockchain"
+                "content": "[FAKE DATA]Solde Blockchain"
             },
             "stats": {
                 "type": "static",
@@ -174,7 +174,7 @@
             },
             "icon": {
                 "type": "static",
-                "content": "ri-bitcoin-line"
+                "content": "ri-btc-line"
             }
         }
     }
