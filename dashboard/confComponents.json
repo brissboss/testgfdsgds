@@ -147,14 +147,7 @@
             }
         },
         "zone_7": {
-            "component": "CardRenewKYC",
-            "props": {
-                "customers": {
-                    "type": "function",
-                    "objectName": "customers",
-                    "method": "getRenewKYC"
-                }
-            }
+            "component": "CardRenewKYC"
         }
     }
 }
