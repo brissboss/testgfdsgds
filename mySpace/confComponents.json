@@ -77,7 +77,7 @@
             },
             "stats": {
                 "type": "static",
-                "content": 12345678
+                "content": 1234560
             },
             "actions": {
                 "type": "static",
@@ -97,7 +97,7 @@
             },
             "color": {
                 "type": "static",
-                "content": "success"
+                "content": "error"
             },
             "icon": {
                 "type": "static",
