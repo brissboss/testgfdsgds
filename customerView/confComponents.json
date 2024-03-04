@@ -168,6 +168,10 @@
                 "type": "static",
                 "content": "BE123456789"
             },
+            "noCurrency": {
+                "type": "static",
+                "content": true
+            },
             "color": {
                 "type": "static",
                 "content": "error"
