@@ -134,7 +134,11 @@
                         "title": "Transactions",
                         "icon": "ri-exchange-line",
                         "tab": "transactions"
-                    }
+                    },
+                    {
+                        "title": "Historique des KYC",
+                        "icon": "ri-history-line",
+                        "tab": "historyKYC"}
                 ]
             },
             "customer": {
