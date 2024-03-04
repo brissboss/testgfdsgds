@@ -158,7 +158,7 @@
         }
     },
     "zone_9": {
-        "component": "CardStatistics",
+        "component": "CardIban",
         "props": {
             "title": {
                 "type": "static",
