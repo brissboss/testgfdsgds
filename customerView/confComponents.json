@@ -156,5 +156,27 @@
                 "method": "getId"
             }
         }
+    },
+    "zone_9": {
+        "component": "CardStatistics",
+        "props": {
+            "title": {
+                "type": "static",
+                "content": "Banking alias"
+            },
+            "stats": {
+                "type": "function",
+                "objectName": "customer",
+                "method": "getBankingAlias"
+            },
+            "color": {
+                "type": "static",
+                "content": "error"
+            },
+            "icon": {
+                "type": "static",
+                "content": "ri-shopping-basket-2-line"
+            }
+        }
     }
 }
