@@ -165,9 +165,8 @@
                 "content": "Banking alias"
             },
             "stats": {
-                "type": "function",
-                "objectName": "customer",
-                "method": "getBankingAlias"
+                "type": "static",
+                "content": "BE123456789"
             },
             "color": {
                 "type": "static",
