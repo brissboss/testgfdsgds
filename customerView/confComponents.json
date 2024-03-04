@@ -175,11 +175,11 @@
             },
             "color": {
                 "type": "static",
-                "content": "error"
+                "content": "info"
             },
             "icon": {
                 "type": "static",
-                "content": "ri-shopping-basket-2-line"
+                "content": "ri-bank-card-line"
             }
         }
     }
