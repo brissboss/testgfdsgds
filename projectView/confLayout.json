@@ -3,14 +3,14 @@
     "components": {
         "zone_1": { "size": {"cols": 12}},
         "zone_2": { "size": {"cols": 12}},
-        "zone_3": { "size": {"cols": 12, "sm": 6, "md": 12, "xl": 12}},
-        "zone_4": { "size": {"cols": 12, "sm": 6, "md": 12, "xl": 12}},
-        "zone_5": { "size": {"cols": 12, "sm": 6, "md": 12, "xl": 12}},
-        "zone_6": { "size": {"cols": 12, "sm": 6, "md": 12, "xl": 12}},
-        "zone_7": { "size": {"cols": 12, "sm": 6, "md": 12, "xl": 12}},
+        "zone_3": { "size": {"cols": 12, "sm": 6, "md": 12, "xl": 6}},
+        "zone_4": { "size": {"cols": 12, "sm": 6, "md": 12, "xl": 6}},
+        "zone_5": { "size": {"cols": 12, "sm": 6, "md": 12, "xl": 6}},
+        "zone_6": { "size": {"cols": 12, "sm": 6, "md": 12, "xl": 6}},
+        "zone_7": { "size": {"cols": 12, "sm": 6, "md": 12, "xl": 6}},
         "zone_8": { "size": {"cols": 12, "xl": 12}},
         "zone_9": { "size": {"cols": 12, "xl": 12}},
-        "zone_10": { "size": {"cols": 12, "sm": 6, "md": 12, "xl": 12}}
+        "zone_10": { "size": {"cols": 12, "sm": 6, "md": 12, "xl": 6}}
     },
     "layout": [
         {
