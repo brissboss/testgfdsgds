@@ -179,7 +179,7 @@
             },
             "color": {
                 "type": "static",
-                "content": "purple"
+                "content": "info"
             },
             "icon": {
                 "type": "static",
