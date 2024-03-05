@@ -1,8 +1,8 @@
 {
     "devMode": true,
     "components": {
-        "zone_1": { "size": {"cols": 12, "md": 6, "xl": 12}},
-        "zone_2": { "size": {"cols": 12, "md": 6, "xl": 12}},
+        "zone_1": { "size": {"cols": 12}},
+        "zone_2": { "size": {"cols": 12}},
         "zone_3": { "size": {"cols": 12, "md": 6}},
         "zone_4": { "size": {"cols": 12, "md": 6}},
         "zone_5": { "size": {"cols": 12, "md": 6}},
@@ -16,7 +16,7 @@
         {
             "id": "block_1",
             "size": {"cols": 12, "xl": 5},
-            "components": ["zone_1", "zone_2", "nested_1", "nested_2"]
+            "components": ["nested_0", "nested_1", "nested_2"]
         },
         {
             "id": "block_2",
@@ -25,6 +25,11 @@
         }
     ],
     "nested": {
+        "nested_0": {
+            "id": "nested_0",
+            "size": {"cols": 12, "md": 6, "xl": 12},
+            "components": ["zone_1", "zone_2"]
+        },
         "nested_1": {
             "id": "nested_1",
             "size": {"cols": 12, "md": 6, "xl": 12},
