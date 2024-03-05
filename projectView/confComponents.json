@@ -4,7 +4,7 @@
         "props": {
             "project": {
                 "type": "params",
-                "objectName": "project",
+                "objectName": "project"
             }
         }
     },
