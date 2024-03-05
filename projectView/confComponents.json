@@ -2,25 +2,9 @@
     "zone_1": {
         "component": "CardTitleProject",
         "props": {
-            "name": {
-                "type": "function",
+            "project": {
+                "type": "params",
                 "objectName": "project",
-                "method": "getName"
-            },
-            "price": {
-                "type": "function",
-                "objectName": "project",
-                "method": "getPrice"
-            },
-            "symbol": {
-                "type": "function",
-                "objectName": "project",
-                "method": "getSymbol"
-            },
-            "id": {
-                "type": "function",
-                "objectName": "project",
-                "method": "getId"
             }
         }
     },
