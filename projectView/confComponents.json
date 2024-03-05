@@ -176,6 +176,11 @@
                         "title": "Clients",
                         "icon": "ri-user-2-line",
                         "tab": "customer"
+                    },
+                    {
+                        "title": "DEEP",
+                        "icon": "ri-coin-line",
+                        "tab": "deep"
                     }
                 ]
             },
