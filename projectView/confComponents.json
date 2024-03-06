@@ -173,11 +173,6 @@
                         "tab": "orders"
                     },
                     {
-                        "title": "Clients",
-                        "icon": "ri-user-2-line",
-                        "tab": "customer"
-                    },
-                    {
                         "title": "DEEP",
                         "icon": "ri-archive-line",
                         "tab": "deep"
