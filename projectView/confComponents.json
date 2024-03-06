@@ -178,7 +178,7 @@
                         "tab": "customer"
                     },
                     {
-                        "title": "Loyer versé",
+                        "title": "Loyer",
                         "icon": "ri-bank-line",
                         "tab": "rent"
                     },
