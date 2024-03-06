@@ -53,7 +53,9 @@
         "component": "TabPartnerView",
         "props": {
             "tabs": {
-
+                "type": "static",
+                "content": [
+                ]
             },
             "partner": {
                 "type": "params",
