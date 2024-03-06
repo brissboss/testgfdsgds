@@ -181,6 +181,11 @@
                         "title": "DEEP",
                         "icon": "ri-archive-line",
                         "tab": "deep"
+                    },
+                    {
+                        "title": "Loyer versé",
+                        "icon": "ri-bank-line",
+                        "tab": "rent"
                     }
                 ]
             },
