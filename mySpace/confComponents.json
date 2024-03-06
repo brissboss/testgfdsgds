@@ -53,14 +53,7 @@
         "component": "TabPartnerView",
         "props": {
             "tabs": {
-                "type": "static",
-                "content": [
-                    {
-                        "title": "Transactions",
-                        "icon": "ri-exchange-line",
-                        "tab": "transactions"
-                    }
-                ]
+
             },
             "partner": {
                 "type": "params",
