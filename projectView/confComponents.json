@@ -9,7 +9,7 @@
         }
     },
     "zone_2": {
-        "component": "CardActiveSet",
+        "component": "CardStatus",
         "props": {
             "project": {
                 "type": "params",
