@@ -201,7 +201,13 @@
     },
     "zone_10": {
         "component": "CardRentTotal",
-        "props": {}
+        "props": {
+            "rent": {
+                "type": "function",
+                "objectName": "project",
+                "method": "getFormattedRentHistory"
+            }
+        }
     },
     "zone_11": {
         "component": "CardStatisticsOrderEvolution2",
