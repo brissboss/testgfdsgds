@@ -200,7 +200,7 @@
         }
     },
     "zone_10": {
-        "component": "CardRentToal",
+        "component": "CardRentTotal",
         "props": {}
     },
     "zone_11": {
