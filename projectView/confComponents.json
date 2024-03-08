@@ -200,7 +200,7 @@
         }
     },
     "zone_10": {
-        "component": "CardEmpty",
+        "component": "CardRentToal",
         "props": {}
     },
     "zone_11": {
