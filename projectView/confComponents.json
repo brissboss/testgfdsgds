@@ -1,6 +1,6 @@
 {
     "zone_1": {
-        "component": "CardTitleProject",
+        "component": "CardStatus",
         "props": {
             "project": {
                 "type": "params",
