@@ -1,10 +1,22 @@
 {
     "zone_1": {
-        "component": "CardStatus",
+        "component": "CardStatistics",
         "props": {
-            "project": {
-                "type": "params",
-                "objectName": "project"
+            "title": {
+                "type": "static",
+                "content": "Investissement médian"
+            },
+            "stats": {
+                "type": "static",
+                "content": 10000
+            },
+            "color": {
+                "type": "static",
+                "content": "success"
+            },
+            "icon": {
+                "type": "static",
+                "content": "ri-exchange-line"
             }
         }
     }
