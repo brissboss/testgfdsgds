@@ -227,5 +227,29 @@
                 "content": "ri-group-line"
             }
         }
+    },
+    "zone_11": {
+        "component": "CardStatisticsBalance",
+        "props": {
+            "title": {
+                "type": "static",
+                "content": "Balance"
+            },
+            "balance": {
+                "type": "function",
+                "objectName": "project",
+                "method": "getBalance"
+            },
+            "maxTokens": {
+                "type": "function",
+                "objectName": "project",
+                "method": "getTotalSupply"
+            },
+            "tokenPrice": {
+                "type": "function",
+                "objectName": "project",
+                "method": "getPrice"
+            }
+        }
     }
 }
