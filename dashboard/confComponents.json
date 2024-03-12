@@ -208,7 +208,7 @@
         "props": {
             "title": {
                 "type": "static",
-                "content": "Nombre d'utilisateurs"
+                "content": "Nombre d'utilisateurs - test"
             },
             "stats": {
                 "type": "params",
