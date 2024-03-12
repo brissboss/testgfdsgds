@@ -229,7 +229,7 @@
         }
     },
     "zone_11": {
-        "component": "CardStatisticsTEST",
+        "component": "TEST",
         "props": {
             "title": {
                 "type": "static",
