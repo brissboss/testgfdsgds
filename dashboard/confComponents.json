@@ -229,26 +229,27 @@
         }
     },
     "zone_11": {
-        "component": "CardStatisticsBalance",
+        "component": "CardStatisticsTEST",
         "props": {
             "title": {
                 "type": "static",
-                "content": "Balance"
+                "content": "Nombre d'utilisateurs"
             },
-            "balance": {
-                "type": "function",
-                "objectName": "project",
-                "method": "getBalance"
+            "stats": {
+                "type": "params",
+                "objectName": "totalUsers"
             },
-            "maxTokens": {
-                "type": "function",
-                "objectName": "project",
-                "method": "getTotalSupply"
+            "noCurrency": {
+                "type": "static",
+                "content": true
             },
-            "tokenPrice": {
-                "type": "function",
-                "objectName": "project",
-                "method": "getPrice"
+            "color": {
+                "type": "static",
+                "content": "warning"
+            },
+            "icon": {
+                "type": "static",
+                "content": "ri-group-line"
             }
         }
     }

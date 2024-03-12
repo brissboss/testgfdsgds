@@ -10,13 +10,14 @@
         "zone_7": {"size": {"cols": 12, "md": 6}},
         "zone_8": {"size": {"cols": 12, "md": 6}},
         "zone_9": {"size": {"cols": 12, "md": 6}},
-        "zone_10": {"size": {"cols": 12, "md": 6}}
+        "zone_10": {"size": {"cols": 12, "md": 6}},
+        "zone_11": {"size": {"cols": 12, "md": 6}}
     },
     "layout": [
         {
             "id": "block_1",
             "size": {"cols": 12, "md": 6},
-            "components": ["nested_1", "zone_4"]
+            "components": ["nested_1", "zone_4", "zone_11"]
         },
         {
             "id": "block_2",
