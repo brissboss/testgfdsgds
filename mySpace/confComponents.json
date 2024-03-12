@@ -69,7 +69,7 @@
         }
     },
     "zone_4": {
-        "component": "CardStatisticsWithActions",
+        "component": "CardStatistics",
         "props": {
             "title": {
                 "type": "static",
@@ -78,14 +78,6 @@
             "stats": {
                 "type": "static",
                 "content": 1234560
-            },
-            "actions": {
-                "type": "static",
-                "content": [
-                    {
-                        "component": "PopUpPayin"
-                    }
-                ]
             },
             "info": {
                 "type": "static",
