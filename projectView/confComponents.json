@@ -209,23 +209,6 @@
             }
         }
     },
-    "zone_11": {
-        "component": "CardStatisticsOrderEvolution2",
-        "props": {
-            "title": {
-                "type": "static",
-                "content": "Evolution des commandes"
-            },
-            "project": {
-                "type": "params",
-                "objectName": "project"
-            },
-            "orders": {
-                "type": "params",
-                "objectName": "orders"
-            }
-        }
-    },
     "zone_12": {
         "component": "CardOrderEvolutions",
         "props": {
