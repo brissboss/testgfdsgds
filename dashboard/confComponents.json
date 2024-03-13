@@ -1,6 +1,6 @@
 {
     "zone_1": {
-        "component": "CardTopProjects",
+        "component": "CardTest",
         "props": {}
     }
 }
