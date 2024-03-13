@@ -1,6 +1,6 @@
 {
     "zone_1": {
-        "component": "CardTitleProject",
+        "component": "cards/CardTitleProject",
         "props": {
             "project": {
                 "type": "params",
@@ -9,7 +9,7 @@
         }
     },
     "zone_2": {
-        "component": "CardStatus",
+        "component": "cards/CardStatus",
         "props": {
             "project": {
                 "type": "params",
@@ -18,7 +18,7 @@
         }
     },
     "zone_3": {
-        "component": "CardStatisticsBalance",
+        "component": "cards/CardStatisticsBalance",
         "props": {
             "title": {
                 "type": "static",
@@ -42,7 +42,7 @@
         }
     },
     "zone_4": {
-        "component": "CardStatistics",
+        "component": "cards/CardStatistics",
         "props": {
             "title": {
                 "type": "static",
@@ -63,7 +63,7 @@
         }
     },
     "zone_5": {
-        "component": "CardStatisticsTokens",
+        "component": "cards/CardStatisticsTokens",
         "props": {
             "title": {
                 "type": "static",
@@ -90,7 +90,7 @@
         }
     },
     "zone_6": {
-        "component": "CardStatistics",
+        "component": "cards/CardStatistics",
         "props": {
             "title": {
                 "type": "static",
@@ -111,7 +111,7 @@
         }
     },
     "zone_7": {
-        "component": "CardStatistics",
+        "component": "cards/CardStatistics",
         "props": {
             "title": {
                 "type": "static",
@@ -145,7 +145,7 @@
         }
     },
     "zone_8": {
-        "component": "CardStatisticsOrderEvolution",
+        "component": "cards/CardStatisticsOrderEvolution",
         "props": {
             "title": {
                 "type": "static",
@@ -162,7 +162,7 @@
         }
     },
     "zone_9": {
-        "component": "TabProjectView",
+        "component": "tab/TabProjectView",
         "props": {
             "tabs": {
                 "type": "static",
@@ -200,7 +200,7 @@
         }
     },
     "zone_10": {
-        "component": "CardRentTotal",
+        "component": "cards/CardRentTotal",
         "props": {
             "rent": {
                 "type": "function",
@@ -210,7 +210,7 @@
         }
     },
     "zone_12": {
-        "component": "CardOrderEvolutions",
+        "component": "cards/CardOrderEvolutions",
         "props": {
             "title": {
                 "type": "static",

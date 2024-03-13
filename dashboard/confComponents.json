@@ -1,6 +1,6 @@
 {
     "zone_1": {
-        "component": "CardStatistics",
+        "component": "cards/CardStatistics",
         "props": {
             "title": {
                 "type": "static",
@@ -30,7 +30,7 @@
         }
     },
     "zone_2": {
-        "component": "CardStatistics",
+        "component": "cards/CardStatistics",
         "props": {
             "title": {
                 "type": "static",
@@ -56,7 +56,7 @@
         }
     },
     "zone_3": {
-        "component": "CardStatistics",
+        "component": "cards/CardStatistics",
         "props": {
             "title": {
                 "type": "static",
@@ -86,11 +86,11 @@
         }
     },
     "zone_4": {
-        "component": "CardTopProjects",
+        "component": "cards/CardTopProjects",
         "props": {}
     },
     "zone_5": {
-        "component": "CardStatistics",
+        "component": "cards/CardStatistics",
         "props": {
             "title": {
                 "type": "static",
@@ -119,7 +119,7 @@
         }
     },
     "zone_6": {
-        "component": "CardStatistics",
+        "component": "cards/CardStatistics",
         "props": {
             "title": {
                 "type": "static",
@@ -148,7 +148,7 @@
         }
     },
     "zone_7": {
-        "component": "CardRenewKYC",
+        "component": "cards/CardRenewKYC",
         "props": {
             "customers": {
                 "type": "function",
@@ -158,7 +158,7 @@
         }
     },
     "zone_8": {
-        "component": "CardStatistics",
+        "component": "cards/CardStatistics",
         "props": {
             "title": {
                 "type": "static",
@@ -179,7 +179,7 @@
         }
     },
     "zone_9": {
-        "component": "CardStatistics",
+        "component": "cards/CardStatistics",
         "props": {
             "title": {
                 "type": "static",
@@ -204,7 +204,7 @@
         }
     },
     "zone_10": {
-        "component": "CardStatistics",
+        "component": "cards/CardStatistics",
         "props": {
             "title": {
                 "type": "static",
