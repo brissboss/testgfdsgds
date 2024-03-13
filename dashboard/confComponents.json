@@ -6,5 +6,9 @@
     "zone_2": {
         "component": "CardTopProjects",
         "props": {}
+    },
+    "zone_3": {
+        "component": "CardCaca",
+        "props": {}
     }
 }
