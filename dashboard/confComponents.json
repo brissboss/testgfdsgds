@@ -2,5 +2,9 @@
     "zone_1": {
         "component": "CardTest",
         "props": {}
+    },
+    "zone_2": {
+        "component": "CardTopProjects",
+        "props": {}
     }
 }
