@@ -1,6 +1,6 @@
 {
     "zone_1": {
-        "component": "card/CardInfoPartner",
+        "component": "cards/CardInfoPartner",
         "props": {
             "partner": {
                 "type": "params",
@@ -9,7 +9,7 @@
         }
     },
     "zone_2": {
-        "component": "card/CardStatisticsWithActions",
+        "component": "cards/CardStatisticsWithActions",
         "props": {
             "title": {
                 "type": "static",
@@ -69,7 +69,7 @@
         }
     },
     "zone_4": {
-        "component": "card/CardStatistics",
+        "component": "cards/CardStatistics",
         "props": {
             "title": {
                 "type": "static",
