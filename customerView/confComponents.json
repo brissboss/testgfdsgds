@@ -183,7 +183,7 @@
             },
             "icon": {
                 "type": "static",
-                "content": "ri-bank-cards/card-line"
+                "content": "ri-bank-card-line"
             }
         }
     }
