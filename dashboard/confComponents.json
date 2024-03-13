@@ -86,7 +86,7 @@
         }
     },
     "zone_4": {
-        "component": "CardTopProjectsTest",
+        "component": "CardTopProjects",
         "props": {}
     },
     "zone_5": {
