@@ -145,11 +145,11 @@
         }
     },
     "zone_8": {
-        "component": "cards/CardStatisticsOrderEvolution",
+        "component": "cards/CardOrderEvolutions",
         "props": {
             "title": {
                 "type": "static",
-                "content": "Evolution des commandes"
+                "content": "Evolution des commandes tset"
             },
             "project": {
                 "type": "params",
@@ -206,23 +206,6 @@
                 "type": "function",
                 "objectName": "project",
                 "method": "getFormattedRentHistory"
-            }
-        }
-    },
-    "zone_12": {
-        "component": "cards/CardOrderEvolutions",
-        "props": {
-            "title": {
-                "type": "static",
-                "content": "Evolution des commandes tset"
-            },
-            "project": {
-                "type": "params",
-                "objectName": "project"
-            },
-            "orders": {
-                "type": "params",
-                "objectName": "orders"
             }
         }
     }
