@@ -22,7 +22,7 @@
         {
             "id": "block_2",
             "size": {"cols": 12, "xl": 8},
-            "components": ["zone_12", "zone_8", "zone_9"]
+            "components": ["zone_12", "zone_9"]
         }
     ],
     "nested": {
