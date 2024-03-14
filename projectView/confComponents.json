@@ -149,7 +149,7 @@
         "props": {
             "title": {
                 "type": "static",
-                "content": "Evolution des commandes TEST CAACA"
+                "content": "Evolution des commandes"
             },
             "project": {
                 "type": "params",
