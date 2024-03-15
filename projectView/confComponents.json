@@ -115,7 +115,7 @@
         "props": {
             "title": {
                 "type": "static",
-                "content": "Nombre d'investisseurs"
+                "content": "[FAKE DATA]Nombre d'investisseurs"
             },
             "stats": {
                 "type": "function",
