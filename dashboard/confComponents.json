@@ -227,5 +227,9 @@
                 "content": "ri-group-line"
             }
         }
+    },
+    "zone_11": {
+        "component": "cards/CardPie",
+        "props": {}
     }
 }
