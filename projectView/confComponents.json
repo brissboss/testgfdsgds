@@ -46,7 +46,7 @@
         "props": {
             "title": {
                 "type": "static",
-                "content": "Investissement médian"
+                "content": "[FAKE DATA]Investissement médian"
             },
             "stats": {
                 "type": "static",
@@ -94,7 +94,7 @@
         "props": {
             "title": {
                 "type": "static",
-                "content": "Investissement moyen"
+                "content": "[FAKE DATA]Investissement moyen"
             },
             "stats": {
                 "type": "static",

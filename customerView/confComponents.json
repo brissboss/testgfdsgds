@@ -39,7 +39,7 @@
         "props": {
             "title": {
                 "type": "static",
-                "content": "Total gagn\u00e9"
+                "content": "[FAKE DATA]Total gagn\u00e9"
             },
             "stats": {
                 "type": "static",
@@ -59,7 +59,7 @@
         "component": "cards/CardStatistics",
         "props": {
             "title": {
-                "type": "static",
+                "type": "[FAKE DATA]static",
                 "content": "Total investi"
             },
             "stats": {
@@ -110,15 +110,6 @@
             }
         }
     },
-    "zone_6": {
-        "component": "cards/CardEmpty",
-        "props": {
-            "height": {
-                "type": "static",
-                "content": "98.5px"
-            }
-        }
-    },
     "zone_7": {
         "component": "tab/TabCustomerView",
         "props": {
@@ -148,16 +139,6 @@
             "orders": {
                 "type": "params",
                 "objectName": "orders"
-            }
-        }
-    },
-    "zone_8": {
-        "component": "CustomerLogTable",
-        "props": {
-            "customer": {
-                "type": "function",
-                "objectName": "customer",
-                "method": "getId"
             }
         }
     },
