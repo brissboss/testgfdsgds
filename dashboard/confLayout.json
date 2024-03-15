@@ -22,7 +22,7 @@
         {
             "id": "block_2",
             "size": {"cols": 12, "md": 6},
-            "components": ["nested_2", "zone_7"]
+            "components": ["nested_2"]
         }
     ],
     "nested": {
@@ -34,7 +34,7 @@
         "nested_2": {
             "id": "nested_2",
             "size": {"cols": 12},
-            "components": ["zone_5", "zone_6", "zone_11", "zone_2", "zone_10"]
+            "components": ["zone_5", "zone_6", "zone_11", "zone_2", "zone_10",  "zone_7"]
         }
     }
 }
