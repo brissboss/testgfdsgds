@@ -230,6 +230,11 @@
     },
     "zone_11": {
         "component": "cards/CardPie",
-        "props": {}
+        "props": {
+            "title": {
+                "type": "static",
+                "content": "[FAKE DATA]Status utilisateurs"
+            }
+        }
     }
 }
