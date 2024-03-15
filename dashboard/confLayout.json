@@ -22,14 +22,14 @@
         {
             "id": "block_2",
             "size": {"cols": 12, "md": 6},
-            "components": ["nested_2", "zone_7", "zone_11"]
+            "components": ["nested_2", "zone_7"]
         }
     ],
     "nested": {
         "nested_1": {
             "id": "nested_1",
             "size": {"cols": 12},
-            "components": ["zone_1", "zone_3", "zone_8", "zone_9"]
+            "components": ["zone_1", "zone_3", "zone_8", "zone_9", "zone_11"]
         },
         "nested_2": {
             "id": "nested_2",
