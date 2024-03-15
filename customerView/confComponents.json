@@ -59,8 +59,8 @@
         "component": "cards/CardStatistics",
         "props": {
             "title": {
-                "type": "[FAKE DATA]static",
-                "content": "Total investi"
+                "type": "static",
+                "content": "[FAKE DATA]Total investi"
             },
             "stats": {
                 "type": "static",
