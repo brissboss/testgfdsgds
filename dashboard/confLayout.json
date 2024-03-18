@@ -11,20 +11,25 @@
         "zone_8": {"size": {"cols": 12, "md": 4}},
         "zone_9": {"size": {"cols": 12, "md": 4}},
         "zone_10": {"size": {"cols": 12, "md": 6}},
-        "zone_11": {"size": {"cols": 12, "md": 3}}
+        "zone_11": {"size": {"cols": 12, "md": 6}}
     },
     "layout": [
         {
             "id": "block_1",
             "size": {"cols": 12, "md": 12},
-            "components": ["nested_1", "zone_11"]
+            "components": ["nested_1", "nested_2"]
         }
     ],
     "nested": {
         "nested_1": {
             "id": "nested_1",
-            "size": {"cols": 9},
-            "components": ["zone_1", "zone_3", "zone_5", "zone_8", "zone_9", "zone_6"]
+            "size": {"cols": 6},
+            "components": ["zone_1", "zone_5", "zone_8", "zone_6", "zone_3", "zone_9"]
+        },
+        "nested_2": {
+            "id": "nested_2",
+            "size": {"cols": 6},
+            "components": ["zone_11", "zone_2", "zone_7"]
         }
     }
 }
