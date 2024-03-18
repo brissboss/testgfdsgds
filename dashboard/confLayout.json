@@ -16,24 +16,24 @@
     "layout": [
         {
             "id": "block_1",
-            "size": {"cols": 12, "md": 12},
+            "size": {"cols": 12},
             "components": ["nested_1", "nested_2"]
         },
         {
             "id": "block_2",
-            "size": {"cols": 12, "md": 12},
+            "size": {"cols": 12},
             "components": ["nested_4", "nested_5"]
         }
     ],
     "nested": {
         "nested_1": {
             "id": "nested_1",
-            "size": {"cols": 6},
+            "size": {"cols": 12, "md": 6},
             "components": ["zone_1", "zone_3", "zone_2", "zone_8"]
         },
         "nested_2": {
             "id": "nested_2",
-            "size": {"cols": 6},
+            "size": {"cols": 12, "md": 6},
             "components": ["zone_11", "nested_3"]
         },
         "nested_3": {
