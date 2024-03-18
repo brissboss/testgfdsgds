@@ -94,7 +94,7 @@
         "props": {
             "title": {
                 "type": "static",
-                "content": "Moyenne des investissements"
+                "content": "Moyenne investissements"
             },
             "stats": {
                 "type": "function",
@@ -124,7 +124,7 @@
         "props": {
             "title": {
                 "type": "static",
-                "content": "Médiane des investissements"
+                "content": "Médiane investissements"
             },
             "stats": {
                 "type": "function",
