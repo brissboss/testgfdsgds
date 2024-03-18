@@ -235,6 +235,11 @@
             "title": {
                 "type": "static",
                 "content": "[FAKE DATA]Status utilisateurs"
+            },
+            "stats": {
+                "type": "function",
+                "objectName": "partner",
+                "method": "getStatsStatusCustomers"
             }
         }
     }
