@@ -94,7 +94,7 @@
         "props": {
             "title": {
                 "type": "static",
-                "content": "[FAKE DATA]Moyenne des investissements"
+                "content": "Moyenne des investissements"
             },
             "stats": {
                 "type": "function",
@@ -124,11 +124,12 @@
         "props": {
             "title": {
                 "type": "static",
-                "content": "[FAKE DATA]Médiane des investissements"
+                "content": "Médiane des investissements"
             },
             "stats": {
-                "type": "static",
-                "content": 10000
+                "type": "function",
+                "objectName": "partner",
+                "method": "getMedianAmountOrders"
             },
             "info": {
                 "type": "static",
