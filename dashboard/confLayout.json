@@ -29,7 +29,12 @@
         "nested_2": {
             "id": "nested_2",
             "size": {"cols": 6},
-            "components": ["zone_11", "zone_2", "zone_10"]
+            "components": ["zone_11", "nested_3"]
+        },
+        "nested_3": {
+            "id": "nested_3",
+            "size": {"cols": 12},
+            "components": ["zone_2", "zone_10"]
         }
     }
 }
