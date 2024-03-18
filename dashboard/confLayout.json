@@ -29,7 +29,7 @@
         "nested_1": {
             "id": "nested_1",
             "size": {"cols": 6},
-            "components": ["zone_1", "zone_5", "zone_8", "zone_6"]
+            "components": ["zone_1", "zone_3", "zone_2", "zone_8"]
         },
         "nested_2": {
             "id": "nested_2",
@@ -44,7 +44,7 @@
         "nested_4": {
             "id": "nested_4",
             "size": {"cols": 6},
-            "components": ["zone_3", "zone_2", "zone_4"]
+            "components": ["zone_5", "zone_6", "zone_4"]
         },
         "nested_5": {
             "id": "nested_5",
