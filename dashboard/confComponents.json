@@ -183,7 +183,7 @@
         "props": {
             "title": {
                 "type": "static",
-                "content": "[FAKE DATA]KYC validés"
+                "content": "KYC validés"
             },
             "stats": {
                 "type": "function",
