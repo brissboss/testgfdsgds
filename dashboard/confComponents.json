@@ -234,7 +234,7 @@
         "props": {
             "title": {
                 "type": "static",
-                "content": "[FAKE DATA]Status utilisateurs"
+                "content": "Status utilisateurs"
             },
             "stats": {
                 "type": "function",
