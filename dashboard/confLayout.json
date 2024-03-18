@@ -22,7 +22,7 @@
         {
             "id": "block_2",
             "size": {"cols": 12, "md": 12},
-            "components": ["zone_4"]
+            "components": ["nested_4"]
         }
     ],
     "nested": {
@@ -34,12 +34,17 @@
         "nested_2": {
             "id": "nested_2",
             "size": {"cols": 6},
-            "components": ["zone_11", "nested_3", "zone_7"]
+            "components": ["zone_11", "nested_3"]
         },
         "nested_3": {
             "id": "nested_3",
             "size": {"cols": 6},
             "components": ["zone_9", "zone_10"]
+        },
+        "nested_4": {
+            "id": "nested_4",
+            "size": {"cols": 12},
+            "components": ["zone_3", "zone_2", "zone_7", "zone_4"]
         }
     }
 }
