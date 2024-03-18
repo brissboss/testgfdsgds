@@ -1,15 +1,15 @@
 {
     "devMode": true,
     "components": {
-        "zone_1": {"size": {"cols": 12, "md": 4}},
+        "zone_1": {"size": {"cols": 12, "md": 6}},
         "zone_2": {"size": {"cols": 12, "md": 6}},
-        "zone_3": {"size": {"cols": 12, "md": 4}},
+        "zone_3": {"size": {"cols": 12, "md": 6}},
         "zone_4": {"size": {"cols": 12}},
-        "zone_5": {"size": {"cols": 12, "md": 4}},
-        "zone_6": {"size": {"cols": 12, "md": 4}},
+        "zone_5": {"size": {"cols": 12, "md": 6}},
+        "zone_6": {"size": {"cols": 12, "md": 6}},
         "zone_7": {"size": {"cols": 12, "md": 6}},
-        "zone_8": {"size": {"cols": 12, "md": 4}},
-        "zone_9": {"size": {"cols": 12, "md": 4}},
+        "zone_8": {"size": {"cols": 12, "md": 6}},
+        "zone_9": {"size": {"cols": 12, "md": 6}},
         "zone_10": {"size": {"cols": 12, "md": 6}},
         "zone_11": {"size": {"cols": 12, "md": 6}}
     },
@@ -29,7 +29,7 @@
         "nested_2": {
             "id": "nested_2",
             "size": {"cols": 6},
-            "components": ["zone_11", "zone_2", "zone_7"]
+            "components": ["zone_11", "zone_2", "zone_10"]
         }
     }
 }
