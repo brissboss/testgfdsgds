@@ -60,11 +60,12 @@
         "props": {
             "title": {
                 "type": "static",
-                "content": "[FAKE DATA]Total investi"
+                "content": "Total investi"
             },
             "stats": {
-                "type": "static",
-                "content": 234500
+                "type": "function",
+                "objectName": "customer",
+                "method": "getTotalInvested"
             },
             "color": {
                 "type": "static",
