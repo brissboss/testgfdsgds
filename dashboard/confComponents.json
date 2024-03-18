@@ -186,8 +186,9 @@
                 "content": "[FAKE DATA]KYC validés"
             },
             "stats": {
-                "type": "static",
-                "content": 426
+                "type": "function",
+                "objectName": "partner",
+                "method": "getNumberOfKycValidated"
             },
             "noCurrency": {
                 "type": "static",
