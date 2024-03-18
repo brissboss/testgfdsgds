@@ -97,8 +97,9 @@
                 "content": "[FAKE DATA]Moyenne des investissements"
             },
             "stats": {
-                "type": "static",
-                "content": 12400
+                "type": "function",
+                "objectName": "partner",
+                "method": "getAverageAmountOrders"
             },
             "info": {
                 "type": "static",
