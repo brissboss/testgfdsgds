@@ -7,7 +7,7 @@
         "zone_4": {"size": {"cols": 12}},
         "zone_5": {"size": {"cols": 12, "md": 6}},
         "zone_6": {"size": {"cols": 12, "md": 6}},
-        "zone_7": {"size": {"cols": 12, "md": 6}},
+        "zone_7": {"size": {"cols": 12}},
         "zone_8": {"size": {"cols": 12, "md": 6}},
         "zone_9": {"size": {"cols": 12}},
         "zone_10": {"size": {"cols": 12}},
