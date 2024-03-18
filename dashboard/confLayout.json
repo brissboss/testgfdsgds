@@ -33,7 +33,7 @@
         },
         "nested_2": {
             "id": "nested_2",
-            "size": {"cols": 12, "sm": 6},
+            "size": {"cols": 12, "md": 6},
             "components": ["zone_11", "nested_3"]
         },
         "nested_3": {
