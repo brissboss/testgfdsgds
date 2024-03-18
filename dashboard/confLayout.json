@@ -11,13 +11,13 @@
         "zone_8": {"size": {"cols": 12, "md": 4}},
         "zone_9": {"size": {"cols": 12, "md": 4}},
         "zone_10": {"size": {"cols": 12, "md": 6}},
-        "zone_11": {"size": {"cols": 12, "md": 6}}
+        "zone_11": {"size": {"cols": 12, "md": 3}}
     },
     "layout": [
         {
             "id": "block_1",
             "size": {"cols": 12, "md": 9},
-            "components": ["nested_1"]
+            "components": ["nested_1", "zone_11"]
         }
     ],
     "nested": {
