@@ -18,13 +18,18 @@
             "id": "block_1",
             "size": {"cols": 12, "md": 12},
             "components": ["nested_1", "nested_2"]
+        },
+        {
+            "id": "block_2",
+            "size": {"cols": 12, "md": 12},
+            "components": ["zone_4", "zone_7"]
         }
     ],
     "nested": {
         "nested_1": {
             "id": "nested_1",
             "size": {"cols": 6},
-            "components": ["zone_1", "zone_5", "zone_8", "zone_6", "zone_3", "zone_9"]
+            "components": ["zone_1", "zone_5", "zone_8", "zone_6", "zone_3", "zone_2"]
         },
         "nested_2": {
             "id": "nested_2",
@@ -34,7 +39,7 @@
         "nested_3": {
             "id": "nested_3",
             "size": {"cols": 6},
-            "components": ["zone_2", "zone_10"]
+            "components": ["zone_9", "zone_10"]
         }
     }
 }
