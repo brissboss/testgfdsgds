@@ -2,7 +2,7 @@
     "devMode": true,
     "components": {
         "zone_1": {"size": {"cols": 12, "md": 6}},
-        "zone_2": {"size": {"cols": 12, "md": 6}},
+        "zone_2": {"size": {"cols": 12}},
         "zone_3": {"size": {"cols": 12, "md": 6}},
         "zone_4": {"size": {"cols": 12}},
         "zone_5": {"size": {"cols": 12, "md": 6}},
@@ -10,7 +10,7 @@
         "zone_7": {"size": {"cols": 12, "md": 6}},
         "zone_8": {"size": {"cols": 12, "md": 6}},
         "zone_9": {"size": {"cols": 12, "md": 6}},
-        "zone_10": {"size": {"cols": 12, "md": 6}},
+        "zone_10": {"size": {"cols": 12}},
         "zone_11": {"size": {"cols": 12, "md": 6}}
     },
     "layout": [
