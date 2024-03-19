@@ -94,7 +94,7 @@
         "props": {
             "title": {
                 "type": "static",
-                "content": "Médiane inv."
+                "content": "Moyenne inv."
             },
             "stats": {
                 "type": "function",
