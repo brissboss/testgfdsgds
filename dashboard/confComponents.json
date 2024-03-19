@@ -244,5 +244,27 @@
                 "method": "getStatsStatusCustomers"
             }
         }
+    },
+    "zone_12": {
+        "component": "cards/CardStatistics",
+        "props": {
+            "title": {
+                "type": "static",
+                "content": "Total reversé"
+            },
+            "stats": {
+                "type": "function",
+                "objectName": "partner",
+                "method": "getTotalRentDistributed"
+            },
+            "color": {
+                "type": "static",
+                "content": "error"
+            },
+            "icon": {
+                "type": "static",
+                "content": "ri-folder-info-line"
+            }
+        }
     }
 }
