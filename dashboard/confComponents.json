@@ -259,11 +259,11 @@
             },
             "color": {
                 "type": "static",
-                "content": "error"
+                "content": "success"
             },
             "icon": {
                 "type": "static",
-                "content": "ri-folder-info-line"
+                "content": "ri-coupon-3-line"
             }
         }
     }
