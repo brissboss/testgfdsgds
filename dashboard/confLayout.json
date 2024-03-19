@@ -24,7 +24,7 @@
         {
             "id": "block_2",
             "size": {"cols": 12},
-            "components": ["zone_4", "zone_7"]
+            "components": ["zone_4", "nested_5"]
         }
     ],
     "nested": {
@@ -47,6 +47,16 @@
             "id": "nested_4",
             "size": {"cols": 6},
             "components": ["zone_8", "zone_12"]
+        },
+        "nested_5": {
+            "id": "nested_5",
+            "size": {"cols": 12},
+            "components": ["zone_7", "nested_6"]
+        },
+        "nested_6": {
+            "id": "nested_6",
+            "size": {"cols": 12},
+            "components": ["zone_2"]
         }
     }
 }
