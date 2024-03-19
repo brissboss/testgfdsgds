@@ -279,26 +279,45 @@
                 "content": [
                     {
                         "country": "FR",
-                        "amount": 123456
+                        "users": 100
                     },
                     {
-                        "country": "BE",
-                        "amount": 123456
+                        "country": "US",
+                        "users": 200
                     },
                     {
-                        "country": "CH",
-                        "amount": 123456
+                        "country": "ES",
+                        "users": 300
                     },
                     {
-                        "country": "LU",
-                        "amount": 123456
+                        "country": "IT",
+                        "users": 400
                     },
                     {
                         "country": "DE",
-                        "amount": 123456
+                        "users": 500
+                    },
+                    {
+                        "country": "UK",
+                        "users": 600
+                    },
+                    {
+                        "country": "BE",
+                        "users": 700
+                    },
+                    {
+                        "country": "NL",
+                        "users": 800
+                    },
+                    {
+                        "country": "CH",
+                        "users": 900
+                    },
+                    {
+                        "country": "LU",
+                        "users": 1000
                     }
                 ]
-
             }
         }
     }
