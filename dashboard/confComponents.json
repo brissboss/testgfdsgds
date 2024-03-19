@@ -275,9 +275,7 @@
                 "content": "Répartition par pays"
             },
             "stats": {
-                "type": "function",
-                "objectName": "partner",
-                "method": "getTopCountry"
+                "type": "static"
             }
         }
     }
