@@ -250,20 +250,28 @@
         "props": {
             "title": {
                 "type": "static",
-                "content": "Total reversé"
+                "content": "Solde actuel"
             },
             "stats": {
                 "type": "function",
                 "objectName": "partner",
-                "method": "getTotalRentDistributed"
+                "method": "getBalance"
+            },
+            "info": {
+                "type": "static",
+                "content": true
+            },
+            "infoText": {
+                "type": "static",
+                "content": "Correspond au solde de votre compte partenaire."
             },
             "color": {
                 "type": "static",
-                "content": "error"
+                "content": "success"
             },
             "icon": {
                 "type": "static",
-                "content": "ri-folder-info-line"
+                "content": "ri-bank-line"
             }
         }
     }
