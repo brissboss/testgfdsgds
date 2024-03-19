@@ -275,49 +275,7 @@
                 "content": "Répartition par pays"
             },
             "stats": {
-                "type": "static",
-                "content": [
-                    {
-                        "country": "FR",
-                        "users": 100
-                    },
-                    {
-                        "country": "US",
-                        "users": 200
-                    },
-                    {
-                        "country": "ES",
-                        "users": 300
-                    },
-                    {
-                        "country": "IT",
-                        "users": 400
-                    },
-                    {
-                        "country": "DE",
-                        "users": 500
-                    },
-                    {
-                        "country": "UK",
-                        "users": 600
-                    },
-                    {
-                        "country": "BE",
-                        "users": 700
-                    },
-                    {
-                        "country": "NL",
-                        "users": 800
-                    },
-                    {
-                        "country": "CH",
-                        "users": 900
-                    },
-                    {
-                        "country": "LU",
-                        "users": 1000
-                    }
-                ]
+                "type": "static"
             }
         }
     }
