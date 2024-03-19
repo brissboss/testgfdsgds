@@ -23,14 +23,14 @@
         {
             "id": "block_2",
             "size": {"cols": 12},
-            "components": ["nested_4", "nested_5"]
+            "components": ["zone_4", "zone_7"]
         }
     ],
     "nested": {
         "nested_1": {
             "id": "nested_1",
             "size": {"cols": 12, "md": 6},
-            "components": ["zone_1", "zone_3", "zone_12", "zone_8"]
+            "components": ["zone_1", "zone_3", "zone_12", "zone_8", "zone_5", "zone_6"]
         },
         "nested_2": {
             "id": "nested_2",
@@ -41,16 +41,6 @@
             "id": "nested_3",
             "size": {"cols": 12, "sm": 6},
             "components": ["zone_9", "zone_10"]
-        },
-        "nested_4": {
-            "id": "nested_4",
-            "size": {"cols": 12, "md": 6},
-            "components": ["zone_5", "zone_6", "zone_4"]
-        },
-        "nested_5": {
-            "id": "nested_5",
-            "size": {"cols": 12, "md": 6},
-            "components": ["zone_7"]
         }
     }
 }
