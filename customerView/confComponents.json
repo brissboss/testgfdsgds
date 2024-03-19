@@ -42,8 +42,9 @@
                 "content": "[FAKE DATA]Total gagn\u00e9"
             },
             "stats": {
-                "type": "static",
-                "content": 13423
+                "type": "function",
+                "objectName": "customer",
+                "method": "getTotalRentGenerated"
             },
             "color": {
                 "type": "static",
