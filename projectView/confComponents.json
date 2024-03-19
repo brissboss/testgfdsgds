@@ -117,12 +117,12 @@
         "props": {
             "title": {
                 "type": "static",
-                "content": "[FAKE DATA]Nombre d'investisseurs"
+                "content": "Nombre d'investisseurs"
             },
             "stats": {
                 "type": "function",
-                "objectName": "orders",
-                "method": "getTotalInvestor"
+                "objectName": "project",
+                "method": "getNumberOfInvestors"
             },
             "info": {
                 "type": "static",
