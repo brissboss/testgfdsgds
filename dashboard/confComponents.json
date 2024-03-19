@@ -266,5 +266,40 @@
                 "content": "ri-coupon-3-line"
             }
         }
+    },
+    "zone_13": {
+        "component": "cards/CardStatisticsCountry",
+        "props": {
+            "title": {
+                "type": "static",
+                "content": "Répartition par pays"
+            },
+            "stats": {
+                "type": "static",
+                "content": [
+                    {
+                        "country": "FR",
+                        "amount": 123456
+                    },
+                    {
+                        "country": "BE",
+                        "amount": 123456
+                    },
+                    {
+                        "country": "CH",
+                        "amount": 123456
+                    },
+                    {
+                        "country": "LU",
+                        "amount": 123456
+                    },
+                    {
+                        "country": "DE",
+                        "amount": 123456
+                    }
+                ]
+
+            }
+        }
     }
 }
