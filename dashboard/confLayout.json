@@ -2,7 +2,7 @@
     "devMode": false,
     "components": {
         "zone_1": {"size": {"cols": 12, "sm": 6}},
-        "zone_2": {"size": {"cols": 12, "sm": 6}},
+        "zone_2": {"size": {"cols": 12}},
         "zone_3": {"size": {"cols": 12, "sm": 6}},
         "zone_4": {"size": {"cols": 12, "sm": 6}},
         "zone_5": {"size": {"cols": 12, "sm": 6}},
