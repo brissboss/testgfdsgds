@@ -280,5 +280,47 @@
                 "method": "getTopCountry"
             }
         }
+    },
+    "zone_14": {
+        "component": "cards/CardLineChart",
+        "props": {
+            "title": {
+                "type": "static",
+                "content": "Evolution des investissements"
+            },
+            "stats": {
+                "type": "static",
+                "content": [
+                    {
+                        "x": "24/01",
+                        "y": 100
+                    },
+                    {
+                        "x": "25/01",
+                        "y": 200
+                    },
+                    {
+                        "x": "26/01",
+                        "y": 300
+                    },
+                    {
+                        "x": "27/01",
+                        "y": 400
+                    },
+                    {
+                        "x": "28/01",
+                        "y": 500
+                    },
+                    {
+                        "x": "29/01",
+                        "y": 600
+                    },
+                    {
+                        "x": "30/01",
+                        "y": 700
+                    }
+                ]
+            }
+        }
     }
 }
