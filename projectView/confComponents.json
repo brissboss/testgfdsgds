@@ -94,11 +94,12 @@
         "props": {
             "title": {
                 "type": "static",
-                "content": "[FAKE DATA]Investissement moyen"
+                "content": "Investissement moyen"
             },
             "stats": {
-                "type": "static",
-                "content": 32400
+                "type": "function",
+                "objectName": "project",
+                "method": "getAverageInvestment"
             },
             "color": {
                 "type": "static",
