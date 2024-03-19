@@ -46,11 +46,12 @@
         "props": {
             "title": {
                 "type": "static",
-                "content": "[FAKE DATA]Investissement médian"
+                "content": "Investissement médian"
             },
             "stats": {
-                "type": "static",
-                "content": 10000
+                "type": "function",
+                "objectName": "project",
+                "method": "getMedianInvestment"
             },
             "color": {
                 "type": "static",
