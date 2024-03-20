@@ -285,8 +285,13 @@
         "component": "cards/CardLineChart",
         "props": {
             "title": {
+                "type": "function",
+                "objectName": "partner",
+                "method": "getTotalUsers"
+            },
+            "subTitle": {
                 "type": "static",
-                "content": "Nouvelles incriptions"
+                "content": "Nombres d'utilisateurs"
             },
             "data": {
                 "type": "static",
