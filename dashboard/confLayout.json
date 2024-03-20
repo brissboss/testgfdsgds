@@ -30,6 +30,11 @@
             "id": "block_3",
             "size": {"cols": 6},
             "components": ["zone_11", "zone_14"]
+        },
+        {
+            "id": "block_4",
+            "size": {"cols": 12},
+            "components": ["zone_4", "nested_2"]
         }
     ],
     "nested": {
@@ -37,6 +42,16 @@
             "id": "nested_1",
             "size": {"cols": 12, "md": 6},
             "components": ["zone_8", "zone_12"]
+        },
+        "nested_2": {
+            "id": "nested_2",
+            "size": {"cols": 12, "md": 6},
+            "components": ["nested_3", "zone_7"]
+        },
+        "nested_3": {
+            "id": "nested_3",
+            "size": {"cols": 12},
+            "components": ["zone_2", "zone_9"]
         }
     }
 }
