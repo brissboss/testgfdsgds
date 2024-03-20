@@ -285,9 +285,8 @@
         "component": "cards/CardLineChart",
         "props": {
             "title": {
-                "type": "function",
-                "objectName": "partner",
-                "method": "getTotalUsers"
+                "type": "params",
+                "objectName": "totalUsers"
             },
             "subTitle": {
                 "type": "static",
