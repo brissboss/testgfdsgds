@@ -1,5 +1,5 @@
 {
-    "devMode": true,
+    "devMode": false,
     "components": {
         "zone_1": {"size": {"cols": 12, "sm": 3}},
         "zone_2": {"size": {"cols": 12}},
