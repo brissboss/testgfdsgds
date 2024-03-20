@@ -282,16 +282,16 @@
         }
     },
     "zone_14": {
-        "component": "cards/CardPie",
+        "component": "cards/CardLineChart",
         "props": {
-            "title": {
+            "subTitle": {
                 "type": "static",
-                "content": "Status utilisateurs"
+                "content": "Utilisateurs"
             },
-            "stats": {
+            "data": {
                 "type": "function",
                 "objectName": "partner",
-                "method": "getStatsStatusCustomers"
+                "method": "getNewCustomers"
             }
         }
     }
