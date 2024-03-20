@@ -25,6 +25,11 @@
             "id": "block_2",
             "size": {"cols": 6},
             "components": ["zone_13", "nested_1"]
+        },
+        {
+            "id": "block_3",
+            "size": {"cols": 6},
+            "components": ["zone_11", "zone_14"]
         }
     ],
     "nested": {
