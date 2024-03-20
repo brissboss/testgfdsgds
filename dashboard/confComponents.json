@@ -250,9 +250,53 @@
                 "content": "Répartition par pays"
             },
             "stats": {
-                "type": "function",
-                "objectName": "partner",
-                "method": "getTopCountry"
+                "type": "static",
+                "content": [
+                    {
+                        "country": "FR",
+                        "users": 374
+                    },
+                    {
+                        "country": "BE",
+                        "users": 123
+                    },
+                    {
+                        "country": "DE",
+                        "users": 234
+                    },
+                    {
+                        "country": "IT",
+                        "users": 345
+                    },
+                    {
+                        "country": "ES",
+                        "users": 456
+                    },
+                    {
+                        "country": "GB",
+                        "users": 567
+                    },
+                    {
+                        "country": "US",
+                        "users": 678
+                    },
+                    {
+                        "country": "CA",
+                        "users": 789
+                    },
+                    {
+                        "country": "AU",
+                        "users": 890
+                    },
+                    {
+                        "country": "JP",
+                        "users": 901
+                    },
+                    {
+                        "country": "CN",
+                        "users": 1012
+                    }
+                ]
             }
         }
     },
