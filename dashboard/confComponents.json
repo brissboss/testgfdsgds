@@ -284,10 +284,6 @@
     "zone_14": {
         "component": "cards/CardLineChart",
         "props": {
-            "title": {
-                "type": "params",
-                "objectName": "totalUsers"
-            },
             "subTitle": {
                 "type": "static",
                 "content": "Utilisateurs"
