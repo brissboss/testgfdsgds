@@ -206,31 +206,6 @@
             }
         }
     },
-    "zone_10": {
-        "component": "cards/CardStatistics",
-        "props": {
-            "title": {
-                "type": "static",
-                "content": "Nombre d'utilisateurs"
-            },
-            "stats": {
-                "type": "params",
-                "objectName": "totalUsers"
-            },
-            "noCurrency": {
-                "type": "static",
-                "content": true
-            },
-            "color": {
-                "type": "static",
-                "content": "warning"
-            },
-            "icon": {
-                "type": "static",
-                "content": "ri-group-line"
-            }
-        }
-    },
     "zone_11": {
         "component": "cards/CardPie",
         "props": {
