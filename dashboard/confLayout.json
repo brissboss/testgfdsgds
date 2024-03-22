@@ -18,7 +18,7 @@
     "layout": [
         {
             "id": "block_1",
-            "size": {"cols": 12},
+            "size": {"cols": 12, "xl": 9},
             "components": ["zone_1", "zone_3", "zone_5", "zone_6"]
         },
         {
