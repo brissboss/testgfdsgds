@@ -28,7 +28,7 @@
         },
         {
             "id": "block_3",
-            "size": {"cols": 6},
+            "size": {"cols": 12, "sm": 6},
             "components": ["zone_11", "zone_14"]
         },
         {
