@@ -1,12 +1,12 @@
 {
     "devMode": true,
     "components": {
-        "zone_1": {"size": {"cols": 12, "md": 3}},
+        "zone_1": {"size": {"cols": 12, "sm": 6, "md": 3}},
         "zone_2": {"size": {"cols": 12}},
-        "zone_3": {"size": {"cols": 12, "md": 3}},
+        "zone_3": {"size": {"cols": 12, "sm": 6, "md": 3}},
         "zone_4": {"size": {"cols": 12, "sm": 6}},
-        "zone_5": {"size": {"cols": 12, "md": 3}},
-        "zone_6": {"size": {"cols": 12, "md": 3}},
+        "zone_5": {"size": {"cols": 12, "sm": 6, "md": 3}},
+        "zone_6": {"size": {"cols": 12, "sm": 6, "md": 3}},
         "zone_7": {"size": {"cols": 12, "sm": 6}},
         "zone_8": {"size": {"cols": 12}},
         "zone_9": {"size": {"cols": 12}},
@@ -40,7 +40,7 @@
     "nested": {
         "nested_1": {
             "id": "nested_1",
-            "size": {"cols": 12, "md": 6},
+            "size": {"cols": 12, "sm": 6},
             "components": ["zone_8", "zone_12"]
         },
         "nested_2": {
