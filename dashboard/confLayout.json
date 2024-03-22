@@ -18,12 +18,12 @@
     "layout": [
         {
             "id": "block_1",
-            "size": {"cols": 12, "xl": 9},
+            "size": {"cols": 12, "xl": 8},
             "components": ["zone_1", "zone_3", "zone_5", "zone_6"]
         },
         {
             "id": "block_2",
-            "size": {"cols": 12, "md": 6, "xl": 3},
+            "size": {"cols": 12, "md": 6, "xl": 4},
             "components": ["zone_13", "nested_1"]
         },
         {
