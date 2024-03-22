@@ -87,7 +87,13 @@
     },
     "zone_4": {
         "component": "cards/CardTopProjects",
-        "props": {}
+        "props": {
+            "data": {
+                "type": "function",
+                "objectName": "partner",
+                "method": "getTopProjects"
+            }
+        }
     },
     "zone_5": {
         "component": "cards/CardStatistics",
