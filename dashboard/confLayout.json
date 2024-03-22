@@ -33,7 +33,7 @@
         },
         {
             "id": "block_4",
-            "size": {"cols": 12},
+            "size": {"cols": 12, "xl": 9},
             "components": ["zone_4", "nested_2"]
         }
     ],
