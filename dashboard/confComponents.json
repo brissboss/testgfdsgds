@@ -261,7 +261,7 @@
         "props": {
             "subTitle": {
                 "type": "static",
-                "content": "Utilisateurs"
+                "content": "Inscriptions aujourdhui"
             },
             "data": {
                 "type": "function",
