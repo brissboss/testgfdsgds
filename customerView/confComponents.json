@@ -131,7 +131,13 @@
                     {
                         "title": "Historique des KYC",
                         "icon": "ri-history-line",
-                        "tab": "historyKYC"}
+                        "tab": "historyKYC"
+                    },
+                    {
+                        "title": "Logs",
+                        "icon": "ri-file-list-2-line",
+                        "tab": "logs"
+                    }
                 ]
             },
             "customer": {
