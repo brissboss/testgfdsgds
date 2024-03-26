@@ -1,8 +1,5 @@
 {
-    "css": [
-        "style.css",
-        "style2.css"
-    ],
+    "css": [],
     "colors": {
         "primary":                          "#2F67C4",
         "onprimary":                        "#FFFFFF",
