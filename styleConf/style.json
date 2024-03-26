@@ -1,4 +1,7 @@
 {
+    "css": [
+        "styles.css"
+    ],
     "colors": {
         "primary":                          "#2F67C4",
         "onprimary":                        "#FFFFFF",
