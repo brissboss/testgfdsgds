@@ -275,5 +275,35 @@
                 "method": "getNewCustomers"
             }
         }
+    },
+    "zone_15": {
+        "component": "cards/CardTopInvestor",
+        "props": {
+            "data": {
+                "type": "static",
+                "content": [
+                    {
+                        "name": "John Doe",
+                        "amount": 123456
+                    },
+                    {
+                        "name": "Jane Doe",
+                        "amount": 123456
+                    },
+                    {
+                        "name": "John Smith",
+                        "amount": 123456
+                    },
+                    {
+                        "name": "Jane Smith",
+                        "amount": 123456
+                    },
+                    {
+                        "name": "John Johnson",
+                        "amount": 123456
+                    }
+                ]
+            }
+        }
     }
 }
