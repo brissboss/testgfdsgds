@@ -1,6 +1,7 @@
 {
     "css": [
-        "style.css"
+        "style.css",
+        "style2.css"
     ],
     "colors": {
         "primary":                          "#2F67C4",
