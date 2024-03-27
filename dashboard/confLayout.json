@@ -14,7 +14,7 @@
         "zone_12": {"size": {"cols": 12}},
         "zone_13": {"size": {"cols": 12, "sm": 6}},
         "zone_14": {"size": {"cols": 12, "sm": 6}},
-        "zone_15": {"size": {"cols": 12, "sm": 3}}
+        "zone_15": {"size": {"cols": 12, "sm": 6, "xl": 2}}
     },
     "layout": [
         {
