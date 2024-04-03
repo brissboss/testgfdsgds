@@ -210,5 +210,45 @@
                 "method": "getFormattedRentHistory"
             }
         }
+    },
+    "zone_11": {
+        "component": "cards/CardTopInvestor",
+        "props": {
+            "data": {
+                "type": "static",
+                "content": [
+                    {
+                        "customer_id": "1",
+                        "firstname": "John",
+                        "lastname": "Doe",
+                        "total_amount": "1000"
+                    },
+                    {
+                        "customer_id": "2",
+                        "firstname": "Jane",
+                        "lastname": "Doe",
+                        "total_amount": "500"
+                    },
+                    {
+                        "customer_id": "3",
+                        "firstname": "John",
+                        "lastname": "Smith",
+                        "total_amount": "250"
+                    },
+                    {
+                        "customer_id": "4",
+                        "firstname": "Jane",
+                        "lastname": "Smith",
+                        "total_amount": "100"
+                    },
+                    {
+                        "customer_id": "5",
+                        "firstname": "John",
+                        "lastname": "Doe",
+                        "total_amount": "50"
+                    }
+                ]
+            }
+        }
     }
 }
