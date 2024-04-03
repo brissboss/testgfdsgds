@@ -1,5 +1,5 @@
 {
-    "devMode": true,
+    "devMode": false,
     "components": {
         "zone_1": {"size": {"cols": 12, "sm": 6, "md": 3, "xl": 6}},
         "zone_2": {"size": {"cols": 12}},
@@ -7,14 +7,14 @@
         "zone_4": {"size": {"cols": 12, "sm": 6, "xl": 4}},
         "zone_5": {"size": {"cols": 12, "sm": 6, "md": 3, "xl": 6}},
         "zone_6": {"size": {"cols": 12, "sm": 6, "md": 3, "xl": 6}},
-        "zone_7": {"size": {"cols": 12, "md": 6}},
+        "zone_7": {"size": {"cols": 12, "sm": 6, "md": 3, "xl": 2}},
         "zone_8": {"size": {"cols": 12}},
         "zone_9": {"size": {"cols": 12}},
         "zone_11": {"size": {"cols": 12, "sm": 6}},
         "zone_12": {"size": {"cols": 12}},
         "zone_13": {"size": {"cols": 12, "sm": 6}},
         "zone_14": {"size": {"cols": 12, "sm": 6}},
-        "zone_15": {"size": {"cols": 12, "sm": 6, "md": 3, "xl": 2}}
+        "zone_15": {"size": {"cols": 12, "md": 6}}
     },
     "layout": [
         {
@@ -40,7 +40,7 @@
         {
             "id": "block_5",
             "size": {"cols": 12, "xl": 12},
-            "components": ["zone_15"]
+            "components": ["zone_7"]
         }
     ],
     "nested": {
@@ -52,7 +52,7 @@
         "nested_2": {
             "id": "nested_2",
             "size": {"cols": 12, "sm": 6, "xl": 4},
-            "components": ["nested_3", "zone_7"]
+            "components": ["nested_3", "zone_15"]
         },
         "nested_3": {
             "id": "nested_3",
