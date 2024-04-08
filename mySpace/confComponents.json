@@ -34,7 +34,7 @@
                                 {
                                     "type": "method",
                                     "objectName": "partner",
-                                    "method": "getIban"
+                                    "method": "getBankingAlias"
                                 }
                             ]
                         }
