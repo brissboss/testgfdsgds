@@ -25,7 +25,14 @@
                 "content": [
                     {
                         "component": {
-                            "name": "PopUpPayin"
+                            "name": "PopUpPayin",
+                            "props": [
+                                {
+                                    "type": "method",
+                                    "objectName": "partner",
+                                    "method": "getIban"
+                                }
+                            ]
                         }
                     },
                     {
