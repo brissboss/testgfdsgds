@@ -20,6 +20,10 @@
                 "objectName": "partner",
                 "method": "getBalance"
             },
+            "model": {
+                "type": "params",
+                "objectName": "partner"
+            },
             "actions": {
                 "type": "static",
                 "content": [
