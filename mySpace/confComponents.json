@@ -37,7 +37,13 @@
                     },
                     {
                         "component": {
-                            "name": "PopUpPayout"
+                            "name": "PopUpPayout",
+                            "props": [
+                                {
+                                    "type": "static",
+                                    "content": "CMCDRE"
+                                }
+                            ]
                         }
                     }
                 ]
