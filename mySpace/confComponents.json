@@ -24,10 +24,14 @@
                 "type": "static",
                 "content": [
                     {
-                        "component": "PopUpPayin"
+                        "component": {
+                            "name": "PopUpPayin"
+                        }
                     },
                     {
-                        "component": "PopUpPayout"
+                        "component": {
+                            "name": "PopUpPayout"
+                        }
                     }
                 ]
             },
