@@ -32,6 +32,7 @@
                             "name": "PopUpPayin",
                             "props": [
                                 {
+                                    "name": "iban",
                                     "type": "method",
                                     "objectName": "partner",
                                     "method": "getBankingAlias"
