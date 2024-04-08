@@ -36,19 +36,19 @@
                                     "type": "method",
                                     "objectName": "partner",
                                     "method": "getBankingAlias"
+                                },
+                                {
+                                    "name": "bic",
+                                    "type": "method",
+                                    "objectName": "partner",
+                                    "method": "getBankingBic"
                                 }
                             ]
                         }
                     },
                     {
                         "component": {
-                            "name": "PopUpPayout",
-                            "props": [
-                                {
-                                    "type": "static",
-                                    "content": "CMCDRE"
-                                }
-                            ]
+                            "name": "PopUpPayout"
                         }
                     }
                 ]
