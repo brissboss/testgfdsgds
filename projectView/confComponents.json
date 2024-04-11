@@ -209,6 +209,10 @@
                 "objectName": "project",
                 "method": "getFormattedRentHistory"
             }
+        },
+        "if": {
+            "conditions": "project.getStatus() === 'commited'",
+            "replaceBy": "zone_11"
         }
     },
     "zone_11": {
