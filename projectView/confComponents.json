@@ -211,7 +211,10 @@
             }
         },
         "if": {
-            "conditions": "project.getStatus() === 'commited'",
+            "condition": {
+                "objectName": "project",
+                "method": "getStatus"
+            },
             "replaceBy": "zone_11"
         }
     },
