@@ -213,7 +213,9 @@
         "if": {
             "condition": {
                 "objectName": "project",
-                "method": "getStatus"
+                "method": "getStatus",
+                "operator": "==",
+                "value": "commited"
             },
             "replaceBy": "zone_11"
         }
