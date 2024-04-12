@@ -209,7 +209,7 @@
                 "objectName": "project",
                 "method": "getFormattedRentHistory"
             }
-        },
+        }
     },
     "zone_11": {
         "component": "cards/CardTopInvestor",
