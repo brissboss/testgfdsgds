@@ -146,6 +146,25 @@
                 "required": true,
                 "editable": true
             },
+            "input_39": {
+                "type": "table",
+                "label": "Roadmap",
+                "field1": {
+                    "type": "date",
+                    "label": "Date",
+                    "name": "date",
+                    "required": true
+                },
+                "field2": {
+                    "type": "text",
+                    "label": "Événement",
+                    "name": "event",
+                    "required": true
+                },
+                "name": "roadmap",
+                "required": true,
+                "editable": true
+            },
             "divider_3": {
                 "type": "divider",
                 "label": "Localisation du bien"
