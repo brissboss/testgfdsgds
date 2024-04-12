@@ -319,6 +319,52 @@
                 "name": "subscriptionCommission",
                 "required": true,
                 "editable": true
+            },
+            "divider_8": {
+                "type": "divider",
+                "label": "Revente"
+            },
+            "input_33": {
+                "type": "number",
+                "label": "Prix du bien après rénovation",
+                "name": "priceAfterRenovation",
+                "required": true,
+                "editable": true
+            },
+            "input_34": {
+                "type": "number",
+                "label": "Durée de détention en année",
+                "name": "holdingPeriod",
+                "required": true,
+                "editable": true
+            },
+            "input_35": {
+                "type": "number",
+                "label": "Revalorisation annuelle",
+                "name": "annualRevaluation",
+                "required": true,
+                "editable": true
+            },
+            "input_36": {
+                "type": "number",
+                "label": "Montant estimé de la revente",
+                "name": "estimatedResaleAmount",
+                "required": true,
+                "editable": true
+            },
+            "input_37": {
+                "type": "number",
+                "label": "Rentabilité nette cible",
+                "name": "targetNetYield",
+                "required": true,
+                "editable": true
+            },
+            "input_38": {
+                "type": "number",
+                "label": "Gain de capital",
+                "name": "capitalGain",
+                "required": true,
+                "editable": true
             }
         }
     }
