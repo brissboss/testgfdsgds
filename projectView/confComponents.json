@@ -210,15 +210,6 @@
                 "method": "getFormattedRentHistory"
             }
         },
-        "if": {
-            "condition": {
-                "objectName": "project",
-                "method": "getStatus",
-                "operator": "==",
-                "value": "commited"
-            },
-            "replaceBy": "zone_11"
-        }
     },
     "zone_11": {
         "component": "cards/CardTopInvestor",
