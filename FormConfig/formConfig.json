@@ -165,6 +165,25 @@
                 "required": true,
                 "editable": true
             },
+            "input_40": {
+                "type": "table",
+                "label": "Graphique évolution des prix",
+                "field1": {
+                    "type": "number",
+                    "label": "Prix",
+                    "name": "price",
+                    "required": true
+                },
+                "field2": {
+                    "type": "text",
+                    "label": "Périodes",
+                    "name": "periods",
+                    "required": true
+                },
+                "name": "priceEvolution",
+                "required": true,
+                "editable": true
+            },
             "divider_3": {
                 "type": "divider",
                 "label": "Localisation du bien"
