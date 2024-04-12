@@ -10,7 +10,6 @@
         "zone_7": { "size": {"cols": 12, "sm": 6, "md": 12, "xl": 6}},
         "zone_8": { "size": {"cols": 9, "xl": 12}},
         "zone_9": { "size": {"cols": 12, "xl": 12}},
-        "zone_10": { "size": {"cols": 12, "sm": 6, "md": 12, "xl": 6}},
         "zone_11": { "size": {"cols": 12, "sm": 6, "md": 12, "xl": 6}}
     },
     "layout": [
