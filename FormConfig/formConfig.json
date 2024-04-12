@@ -165,9 +165,23 @@
                 "editable": true
             },
             "input_13": {
-                "type": "number",
+                "type": "text",
                 "label": "Code postal",
                 "name": "zipCode",
+                "required": true,
+                "editable": true
+            },
+            "input_14": {
+                "type": "text",
+                "label": "Pays",
+                "name": "country",
+                "required": true,
+                "editable": true
+            },
+            "input_15": {
+                "type": "textArea",
+                "label": "Description de la localisation",
+                "name": "locationDescription",
                 "required": true,
                 "editable": true
             }
