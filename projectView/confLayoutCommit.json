@@ -44,11 +44,6 @@
             "id": "nested_2",
             "size": {"cols": 12, "md": 3, "xl": 12},
             "components": ["zone_7", "zone_5", "zone_6", "zone_4"]
-        },
-        "nested_3": {
-            "id": "gros caca dans le ben",
-            "size": {"cols": 12, "md": 6, "xl": 12},
-            "components": ["zone_1", "zone_2"]
-        },
+        }
     }
 }
