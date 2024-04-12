@@ -14,11 +14,6 @@
     },
     "layout": [
         {
-            "id": "block_1",
-            "size": {"cols": 12, "xl": 4},
-            "components": ["nested_0", "nested_1", "nested_2"]
-        },
-        {
             "id": "block_2",
             "size": {"cols": 12, "xl": 8},
             "components": ["zone_8"]
