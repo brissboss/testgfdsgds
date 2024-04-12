@@ -184,6 +184,88 @@
                 "name": "locationDescription",
                 "required": true,
                 "editable": true
+            },
+            "divider_4": {
+                "type": "divider",
+                "label": "Charges"
+            },
+            "input_16": {
+                "type": "number",
+                "label": "Maintenance générale",
+                "name": "generalMaintenance",
+                "required": true,
+                "editable": true
+            },
+            "input_17": {
+                "type": "number",
+                "label": "Énergie & consommables",
+                "name": "energyConsumables",
+                "required": true,
+                "editable": true
+            },
+            "input_18": {
+                "type": "number",
+                "label": "Fonds de travaux",
+                "name": "workFunds",
+                "required": true,
+                "editable": true
+            },
+            "input_19": {
+                "type": "number",
+                "label": "Taxes",
+                "name": "taxes",
+                "required": true,
+                "editable": true
+            },
+            "input_20": {
+                "type": "number",
+                "label": "Frais de gestion sur les revenus",
+                "name": "managementFees",
+                "required": true,
+                "editable": true
+            },
+            "divider_5": {
+                "type": "divider",
+                "label": "Revenus"
+            },
+            "input_21": {
+                "type": "number",
+                "label": "Revenus quotidien moyen",
+                "name": "averageDailyIncome",
+                "required": true,
+                "editable": true
+            },
+            "input_22": {
+                "type": "number",
+                "label": "Taux d'occupation moyen",
+                "name": "averageOccupancyRate",
+                "required": true,
+                "editable": true
+            },
+            "divider_6": {
+                "type": "divider",
+                "label": "Résultat"
+            },
+            "input_23": {
+                "type": "number",
+                "label": "Résultat opérationnel annuel",
+                "name": "annualOperatingResult",
+                "required": true,
+                "editable": true
+            },
+            "input_24": {
+                "type": "number",
+                "label": "Résultat financier annuel",
+                "name": "annualFinancialResult",
+                "required": true,
+                "editable": true
+            },
+            "input_25": {
+                "type": "number",
+                "label": "Rendement net estimé",
+                "name": "estimatedNetYield",
+                "required": true,
+                "editable": true
             }
         }
     }
