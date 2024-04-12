@@ -148,34 +148,28 @@
             },
             "divider_3": {
                 "type": "divider",
-                "label": "Historique des actifs"
+                "label": "Localisation du bien"
             },
             "input_11": {
-                "type": "date",
-                "label": "Date estimée d'ouverture des ventes",
-                "name": "openingDate",
+                "type": "text",
+                "label": "Adresse",
+                "name": "address",
                 "required": true,
                 "editable": true
             },
             "input_12": {
-                "type": "date",
-                "label": "Date estimée de fin des ventes",
-                "name": "closingDate",
+                "type": "text",
+                "label": "Ville",
+                "name": "city",
                 "required": true,
                 "editable": true
             },
             "input_13": {
-                "type": "date",
-                "label": "Date estimé de distribution des tokens",
-                "name": "distributionDate",
+                "type": "number",
+                "label": "Code postal",
+                "name": "zipCode",
                 "required": true,
                 "editable": true
-            },
-            "input_14": {
-                "type": "date",
-                "label": "Date estimé de première distribution de revenus",
-                "name": "firstRevenueDate",
-                "required": true
             }
         }
     }
