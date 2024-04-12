@@ -106,59 +106,44 @@
                 "info": "Listez un fort du projet",
                 "editable": true
             },
-            "input_4": {
-                "type": "number",
-                "label": "Maturité en années",
-                "name": "maturity",
-                "required": true,
-                "editable": true
-            },
             "divider_2": {
                 "type": "divider",
-                "label": "Propriétés du bien",
-                "name": "property"
+                "label": "Caractéristiques du bien",
+                "name": "divider_2"
             },
             "input_5": {
-                "type": "number",
-                "label": "Loyer",
-                "name": "rent",
-                "required": true,
-                "editable": true
-            },
-            "input_6": {
-                "type": "number",
-                "label": "Zip code",
-                "name": "zipCode",
-                "required": true,
-                "editable": true
-            },
-            "input_7": {
-                "type": "string",
-                "label": "Emplacement",
-                "name": "location",
-                "required": true,
-                "editable": true
-            },
-            "input_8": {
                 "type": "number",
                 "label": "Surface en m²",
                 "name": "surface",
                 "required": true,
                 "editable": true
             },
-            "input_9": {
-                "type": "string",
-                "label": "URL Google Maps",
-                "name": "googleMaps",
+            "input_6": {
+                "type": "number",
+                "label": "Nombre de salle de bain",
+                "name": "bathroom",
                 "required": true,
                 "editable": true
             },
-            "input_10": {
-                "type": "textArea",
-                "label": "Équipement",
-                "name": "equipment",
+            "input_7": {
+                "type": "number",
+                "label": "Capacité d'accueil",
+                "name": "capacity",
                 "required": true,
-                "info": "Listez les équipements du bien",
+                "editable": true
+            },
+            "input_8": {
+                "type": "number",
+                "label": "Nombre de chambre",
+                "name": "bedroom",
+                "required": true,
+                "editable": true
+            },
+            "input_9": {
+                "type": "textArea",
+                "label": "Description du bien",
+                "name": "description",
+                "required": true,
                 "editable": true
             },
             "divider_3": {
