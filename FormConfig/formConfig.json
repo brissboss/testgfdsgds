@@ -80,27 +80,30 @@
         "input": {
             "divider_1": {
                 "type": "divider",
-                "label": "Informations Financières"
+                "label": "Point fort du projet"
             },
             "input_1": {
-                "type": "number",
-                "label": "Taux d'intérêt en %",
-                "name": "interestRate",
+                "type": "textArea",
+                "label": "1er point fort",
+                "name": "strongPoint1",
                 "required": true,
+                "info": "Listez un fort du projet",
                 "editable": true
             },
             "input_2": {
-                "type": "number",
-                "label": "Taux d'actualisation en %",
-                "name": "discountRate",
+                "type": "textArea",
+                "label": "2ème point fort",
+                "name": "strongPoint2",
                 "required": true,
+                "info": "Listez un fort du projet",
                 "editable": true
             },
             "input_3": {
-                "type": "number",
-                "label": "Périodicité des coupons (par ans)",
-                "name": "couponFrequency",
+                "type": "textArea",
+                "label": "3ème point fort",
+                "name": "strongPoint3",
                 "required": true,
+                "info": "Listez un fort du projet",
                 "editable": true
             },
             "input_4": {
