@@ -266,6 +266,59 @@
                 "name": "estimatedNetYield",
                 "required": true,
                 "editable": true
+            },
+            "divider_7": {
+                "type": "divider",
+                "label": "Investissement"
+            },
+            "input_26": {
+                "type": "number",
+                "label": "Prix d'achat",
+                "name": "purchasePrice",
+                "required": true,
+                "editable": true
+            },
+            "input_27": {
+                "type": "number",
+                "label": "Frais de notaire",
+                "name": "notaryFees",
+                "required": true,
+                "editable": true
+            },
+            "input_28": {
+                "type": "number",
+                "label": "Frais de chasse",
+                "name": "huntingFees",
+                "required": true,
+                "editable": true
+            },
+            "input_29": {
+                "type": "number",
+                "label": "Travaux",
+                "name": "work",
+                "required": true,
+                "editable": true
+            },
+            "input_30": {
+                "type": "number",
+                "label": "Ameublement et équipement",
+                "name": "furnitureEquipment",
+                "required": true,
+                "editable": true
+            },
+            "input_31": {
+                "type": "number",
+                "label": "Réserve travaux",
+                "name": "workReserve",
+                "required": true,
+                "editable": true
+            },
+            "input_32": {
+                "type": "number",
+                "label": "Commision de souscription",
+                "name": "subscriptionCommission",
+                "required": true,
+                "editable": true
             }
         }
     }
