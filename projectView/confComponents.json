@@ -204,7 +204,9 @@
     "zone_10": {
         "component": "cards/CardRentTotal",
         "style": [
-            "height: 221px;"
+            "height: 221px;",
+            "border-color: #f1f5;",
+            "border-width: 3px;"
         ],
         "props": {
             "rent": {
