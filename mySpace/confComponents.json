@@ -95,7 +95,7 @@
         "props": {
             "title": {
                 "type": "static",
-                "content": "[FAKE DATA]Mon solde blockchain"
+                "content": "Mon solde blockchain"
             },
             "stats": {
                 "type": "static",

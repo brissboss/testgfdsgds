@@ -170,7 +170,7 @@
         "props": {
             "title": {
                 "type": "static",
-                "content": "[FAKE DATA]Solde Blockchain"
+                "content": "Solde Blockchain"
             },
             "stats": {
                 "type": "static",
