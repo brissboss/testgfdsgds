@@ -1,5 +1,5 @@
 {
-    "Blockchain": {
+    "Caractéristique des obligations & Blockchain": {
         "icon": "ri-btc-line",
         "input": {
             "divider_1": {
@@ -67,7 +67,7 @@
         "input": {
             "divider_1": {
                 "type": "divider",
-                "label": "Ajouter vos images et descriptifs"
+                "label": "Ajouter vos images"
             },
             "input_1": {
                 "type": "iframe",
