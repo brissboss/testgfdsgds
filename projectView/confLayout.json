@@ -1,5 +1,5 @@
 {
-    "devMode": false,
+    "devMode": true,
     "components": {
         "zone_1": { "size": {"cols": 12}},
         "zone_2": { "size": {"cols": 12}},
@@ -49,7 +49,7 @@
         "nested_3": {
             "id": "nested_3",
             "size": {"cols": 3, "xl": 12},
-            "components": ["zone_11", "zone_9"]
+            "components": ["zone_9", "zone_11"]
         }
     }
 }
