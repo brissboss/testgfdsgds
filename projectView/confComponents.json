@@ -8,15 +8,6 @@
             }
         }
     },
-    "zone_2": {
-        "component": "cards/CardStatus",
-        "props": {
-            "project": {
-                "type": "params",
-                "objectName": "project"
-            }
-        }
-    },
     "zone_3": {
         "component": "cards/CardStatisticsBalance",
         "props": {
