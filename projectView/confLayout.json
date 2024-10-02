@@ -22,10 +22,15 @@
         {
             "id": "block_2",
             "size": {"cols": 12, "xl": 8},
-            "components": ["zone_8", "nested_3"]
+            "components": ["zone_11"]
         },
         {
             "id": "block_3",
+            "size": {"cols": 12, "xl": 8},
+            "components": ["zone_8"]
+        },
+        {
+            "id": "block_4",
             "size": {"cols": 12, "xl": 8},
             "components": ["zone_9"]
         }
