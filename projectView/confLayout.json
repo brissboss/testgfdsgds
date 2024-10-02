@@ -36,10 +36,8 @@
             "size": {"cols": 12, "md": 3, "xl": 12},
             "components": [
                 "zone_3",
-                {
-                    "commited": "zone_10",
-                    "other": "zone_11"
-                }
+                "zone_10",
+                "zone_11"
             ]
         },
         "nested_2": {
