@@ -11,7 +11,7 @@
         "zone_8": { "size": {"cols": 12}},
         "zone_9": { "size": {"cols": 12, "xl": 12}},
         "zone_10": { "size": {"cols": 12, "sm": 6, "md": 12, "xl": 6}},
-        "zone_11": { "size": {"cols": 12, "sm": 4, "md": 4, "xl": 4}}
+        "zone_11": { "size": {"cols": 12, "sm": 6, "md": 12, "xl": 6}}
     },
     "layout": [
         {
@@ -22,15 +22,10 @@
         {
             "id": "block_2",
             "size": {"cols": 12, "xl": 8},
-            "components": ["zone_11"]
-        },
-        {
-            "id": "block_3",
-            "size": {"cols": 12, "xl": 8},
             "components": ["zone_8"]
         },
         {
-            "id": "block_4",
+            "id": "block_3",
             "size": {"cols": 12, "xl": 8},
             "components": ["zone_9"]
         }
@@ -44,7 +39,7 @@
         "nested_1": {
             "id": "nested_1",
             "size": {"cols": 12, "md": 3, "xl": 12},
-            "components": ["zone_3", "zone_10"]
+            "components": ["zone_3", "zone_10", "zone_11"]
         },
         "nested_2": {
             "id": "nested_2",
