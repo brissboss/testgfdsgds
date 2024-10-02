@@ -34,7 +34,13 @@
         "nested_1": {
             "id": "nested_1",
             "size": {"cols": 12, "md": 3, "xl": 12},
-            "components": ["zone_3", "zone_10", "zone_11"]
+            "components": [
+                "zone_3",
+                {
+                    "commited": "zone_10",
+                    "other": "zone_11"
+                }
+            ]
         },
         "nested_2": {
             "id": "nested_2",
