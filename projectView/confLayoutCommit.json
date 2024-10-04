@@ -8,8 +8,9 @@
         "zone_5": { "size": {"cols": 12, "sm": 6, "md": 12, "xl": 6}},
         "zone_6": { "size": {"cols": 12, "sm": 6, "md": 12, "xl": 6}},
         "zone_7": { "size": {"cols": 12, "sm": 6, "md": 12, "xl": 6}},
-        "zone_8": { "size": {"cols": 12, "xl": 12}},
+        "zone_8": { "size": {"cols": 9, "xl": 12}},
         "zone_9": { "size": {"cols": 12, "xl": 12}},
+        "zone_10": { "size": {"cols": 12, "sm": 6, "md": 12, "xl": 6}},
         "zone_11": { "size": {"cols": 12, "sm": 6, "md": 12, "xl": 6}}
     },
     "layout": [
@@ -21,7 +22,7 @@
         {
             "id": "block_2",
             "size": {"cols": 12, "xl": 8},
-            "components": ["zone_8"]
+            "components": ["zone_8", "nested_3"]
         },
         {
             "id": "block_3",
@@ -38,12 +39,17 @@
         "nested_1": {
             "id": "nested_1",
             "size": {"cols": 12, "md": 3, "xl": 12},
-            "components": ["zone_3", "zone_11"]
+            "components": ["zone_3", "zone_10"]
         },
         "nested_2": {
             "id": "nested_2",
             "size": {"cols": 12, "md": 3, "xl": 12},
             "components": ["zone_7", "zone_5", "zone_6", "zone_4"]
+        },
+        "nested_3": {
+            "id": "nested_3",
+            "size": {"cols": 3, "xl": 12},
+            "components": ["zone_11"]
         }
     }
 }
