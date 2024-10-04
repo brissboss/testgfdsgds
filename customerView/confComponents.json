@@ -39,7 +39,7 @@
         "props": {
             "title": {
                 "type": "static",
-                "content": "[UNCERTAIN DATA]Total gagn\u00e9"
+                "content": "Total gagn\u00e9"
             },
             "stats": {
                 "type": "function",
