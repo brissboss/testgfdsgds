@@ -48,7 +48,15 @@
                     },
                     {
                         "component": {
-                            "name": "PopUpPayout"
+                            "name": "Link",
+                            "props": [
+                                {
+                                    "name": "link",
+                                    "type": "method",
+                                    "objectName": "partner",
+                                    "method": "getLinkToWallet"
+                                }
+                            ]
                         }
                     }
                 ]
