@@ -47,15 +47,26 @@
                         }
                     },
                     {
-                        "method": {
-                            "buttonName": "Retrait",
-                            "buttonIcon": "ri-arrow-up-circle-line",
-                            "props": {
-                                "name": "link",
-                                "type": "method",
-                                "objectName": "partner",
-                                "method": "getLinkToWallet"
-                            }
+                        "component": {
+                            "name": "ButtonLink",
+                            "props": [
+                                {
+                                    "name": "href",
+                                    "type": "method",
+                                    "objectName": "partner",
+                                    "method": "getUrlToMainWallet"
+                                },
+                                {
+                                    "name": "icon",
+                                    "type": "static",
+                                    "content": "ri-arrow-up-circle-line"
+                                },
+                                {
+                                    "name": "name",
+                                    "type": "static",
+                                    "content": "Retrait"
+                                }
+                            ]
                         }
                     }
                 ]
