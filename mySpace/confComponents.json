@@ -48,10 +48,14 @@
                     },
                     {
                         "method": {
-                            "name": "link",
-                            "type": "method",
-                            "objectName": "partner",
-                            "method": "getLinkToWallet"
+                            "buttonName": "Retrait",
+                            "buttonIcon": "ri-arrow-up-circle-line",
+                            "props": {
+                                "name": "link",
+                                "type": "method",
+                                "objectName": "partner",
+                                "method": "getLinkToWallet"
+                            }
                         }
                     }
                 ]
