@@ -47,16 +47,11 @@
                         }
                     },
                     {
-                        "component": {
-                            "name": "Link",
-                            "props": [
-                                {
-                                    "name": "link",
-                                    "type": "method",
-                                    "objectName": "partner",
-                                    "method": "getLinkToWallet"
-                                }
-                            ]
+                        "method": {
+                            "name": "link",
+                            "type": "method",
+                            "objectName": "partner",
+                            "method": "getLinkToWallet"
                         }
                     }
                 ]
